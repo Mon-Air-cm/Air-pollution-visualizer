@@ -16,18 +16,28 @@ require([
     center: [-118.80500, 34.02700], // longitude, latitude
     zoom: 13
   });
-  var basemapToggle = new BasemapToggle({
-          view: view,
-          nextBasemap: "satellite"
-  });
+
+  /*var basemapToggle = BasemapToggle({
+    view: view,
+    nextbaseMap: "satellite",
+  })*/
   var basemapGallery = new BasemapGallery({
-          view: view,
-          source: {
-            portal: {
-              url: "https://www.arcgis.com",
-              useVectorBasemaps: false  // Load vector tile basemaps
-            }
-          }
+    view: view,
+    source: {
+      portal:{
+        url: "http://www.arcgis.com",
+        useVectorBasemaps: true //huh? what does "Load vector tile basemaps"
+      }
+    }
+  });
+  var trailsLayer = new FeatureLayer({
+        url: "https://services3.arcgis.com/GVgbJbqm8hXASVYi/arcgis/rest/services/Trails/FeatureServer/0"
+      });
+
+  var parksLayer = new FeatureLayer({
+          url: "https://services3.arcgis.com/GVgbJbqm8hXASVYi/arcgis/rest/services/Parks_and_Open_Space/FeatureServer/0"
         });
-   view.ui.add(basemapGallery, "top-right");
+  map.add(trailsLayer, 0);
+  map.add(parksLayer, 0);
+  view.ui.add(basemapGallery, "bottom-right");
 });
