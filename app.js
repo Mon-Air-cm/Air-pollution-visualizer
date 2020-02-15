@@ -2,7 +2,7 @@ require([
     "esri/Map",
     "esri/views/MapView",
     "esri/widgets/BasemapToggle",
-    "esri/widgets/BasemapGallery"
+    "esri/widgets/BasemapGallery",
     "esri/layers/FeatureLayer"
   ], function(Map, MapView, BasemapToggle, BasemapGallery, FeatureLayer) {
   var map = new Map({
@@ -20,7 +20,8 @@ require([
     view: view,
     nextbaseMap: "satellite",
   })*/
-  var basemapGallery = new BasemapGallery({
+
+  var basemapGallery = new BasemapGallery({ //toggles between the maps
     view: view,
     source: {
       portal:{
@@ -29,6 +30,7 @@ require([
       }
     }
   });
+
   var trailsLayer = new FeatureLayer({
         url: "https://services3.arcgis.com/GVgbJbqm8hXASVYi/arcgis/rest/services/Trails/FeatureServer/0"
       });
@@ -38,13 +40,13 @@ require([
         });
   map.add(trailsLayer, 0);
   map.add(parksLayer, 0);
-  var monitorRenderer = {
+  var monitorRenderer = { //individual node
         type: "simple",
         symbol: {
           type: "picture-marker",
           url: "something something url",//a url linking to the arcGIS hosting the data and the information
           width: "18px",
-          height: "18px"
+          height: "18px",
         }
       }
   var trailheadsLabel = {
@@ -65,13 +67,13 @@ require([
       expression: "$feature.TRL_NAME"
     }
   };
-  var trailheads = new FeatureLayer({
+  var monitors = new FeatureLayer({
     url: "https://services3.arcgis.com/GVgbJbqm8hXASVYi/arcgis/rest/services/Trailheads/FeatureServer/0",
-    renderer: trailheadsRenderer,
+    renderer: monitorRenderer,
     labelingInfo: [trailheadsLabel]
   })
   map.add(trailheads);
-  var trailsRenderer = {
+  var monitorRenderer = {
     type: "simple",
     symbol: {
           color: "#BA55D3",
