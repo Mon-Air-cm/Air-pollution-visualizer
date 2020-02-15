@@ -1,6 +1,8 @@
 require([
     "esri/Map",
-    "esri/views/MapView"
+    "esri/views/MapView",
+    "esri/widgets/BasemapToggle",
+    "esri/widgets/BasemapGallery"
   ], function(Map, MapView) {
 
   var map = new Map({
