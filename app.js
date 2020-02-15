@@ -30,27 +30,38 @@ require([
       }
     }
   });
-
-  var trailsLayer = new FeatureLayer({
-        url: "https://services3.arcgis.com/GVgbJbqm8hXASVYi/arcgis/rest/services/Trails/FeatureServer/0"
-      });
-
-  var parksLayer = new FeatureLayer({
-          url: "https://services3.arcgis.com/GVgbJbqm8hXASVYi/arcgis/rest/services/Parks_and_Open_Space/FeatureServer/0"
-        });
-  map.add(trailsLayer, 0);
-  map.add(parksLayer, 0);
+  var popupMonitors = {
+        "title": "{LOCATION}",//"{LOCATION}",
+        "content": "<b>Monitor #</b>{MONITOR_ID}<b> Long/lat:</b> {LON}{LAT}<br><b>NOx concentration:</b> {NOX_LEVELS}<br><b>SOx concentration:</b> {SOX_LEVELS}<br><b>Ozone concentration:</b> {OZONE_LEVELS}<br>"
+      }//for some reason the trail name isn't quite working even though everything else does
+  console.log("popupMonitors made")
   var monitorRenderer = { //individual node
         type: "simple",
         symbol: {
           type: "picture-marker",
-          url: "something something url",//a url linking to the arcGIS hosting the data and the information
-          width: "18px",
-          height: "18px",
-        }
+          url: "https://services9.arcgis.com/Rm2nGB5BTMeUprVI/arcgis/rest/services/SampleCSVFile_2kb/FeatureServer",//a url linking to the arcGIS hosting the data and the information
+        },
+        visualVariables: [
+          {
+            type: "size",
+            field: "TOTAL_PPM",
+            stops: [
+            {
+              value: 100,
+              color: "F7F7F7",
+              label: "100ppm or lower"
+            },
+            {
+              value: 300, // features where > 30% of the pop in poverty
+              color: "b35806", // will be assigned this color (purple)
+              label: "300ppm or higher" // label to display in the legend
+            },
+          ]
+        }],
       }
+  console.log("monitorRenderer made")
   var trailheadsLabel = {
-    symbole: {
+    symbol: {
       test: "text",
       color: "#FFFFFF",
       haloColor: "5E8D74",
@@ -64,15 +75,18 @@ require([
           },
     labelPlacement: "above-center",
     labelExpressionInfo: {
-      expression: "$feature.TRL_NAME"
+      expression: "$feature.LOCATION"
     }
   };
+  console.log("trailheadsLabel made")
   var monitors = new FeatureLayer({
-    url: "https://services3.arcgis.com/GVgbJbqm8hXASVYi/arcgis/rest/services/Trailheads/FeatureServer/0",
+    url:"https://services9.arcgis.com/Rm2nGB5BTMeUprVI/arcgis/rest/services/SampleCSVFile_2kb/FeatureServer",
+    outfields: ["TRL_NAME","LOCATION", "LON", "LAT", "BOX_LEVELS"],
+    popupTemplate: popupMonitors,
     renderer: monitorRenderer,
     labelingInfo: [trailheadsLabel]
   })
-  map.add(trailheads);
+  map.add(monitors)
   var monitorRenderer = {
     type: "simple",
     symbol: {
@@ -93,7 +107,7 @@ require([
   }
   var trails = new FeatureLayer({
     url: "https://services3.arcgis.com/GVgbJbqm8hXASVYi/arcgis/rest/services/Trails/FeatureServer/0",
-    renderer: trailsRenderer,
+    renderer: monitorRenderer,
     opacity: 0.5,
   });
   map.add(trails, 0);
@@ -103,7 +117,7 @@ require([
     type: "simple-line",
     style: "short-dot",
     color: "#FF91FF",
-    width: "6px"
+    width: "6px",
     }
   };
   var bikeTrails = new FeatureLayer({

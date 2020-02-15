@@ -1,322 +1,322 @@
-OBJECTID,TRL_NAME,PARK_NAME,TRL_ID,SEG_ID,FEATURE,FEAT_CMNT,ELEV_FT,CITY_JUR,ZIP_CODE,SUP_DIST,X_STREET,PARKING,PHOTO,LAT,LON,FID,x,y
-7769,Medea Creek Trail,National Parks Service,20082,200820000,TAPO,Auto Generated and Verified,831,Unincorporated Los Angeles County,91301,3rd District,28825 Lake Vista Dr,SA,,34.11305718,-118.75152666,1,-118.75152666,34.11305718
-8047,Hearst Tank Motorway,National Parks Service,20067,200670000,TAPO,,1555,Unincorporated Los Angeles County,90290,3rd District,3200 Tuna Canyon Rd,ST,,34.05968704,-118.61654529,2,-118.61654529,34.05968704
-7770,Medicine Woman Trail,National Parks Service,20084,200840000,TH,Auto Generated and Verified,758,Unincorporated Los Angeles County,91301,3rd District,2900 Cornell Rd,SA,,34.11736375,-118.75683927,3,-118.75683927,34.11736375
-8048,Pipe Corral Spur Trail,CA State Parks - Topanga,10133,101330000,TAPO,Auto Generated and Verified,0,Los Angeles,90272,3rd District,,ST,,34.07934551,-118.51972364,4,-118.51972364,34.07934551
-7773,Mesa Peak Motorway,CA State Parks - Malibu Creek,10112,101120000,TH,Auto Generated and Verified,1982,Unincorporated Los Angeles County,90265,3rd District,300 Corral Canyon Rd,ST,,34.07905997,-118.75556306,5,-118.75556306,34.07905997
-8049,Willow Creek Trail,CA State Parks - Leo Carrillo,10176,101760000,TAPO,Auto Generated and Verified,0,Unincorporated Los Angeles County,90265,3rd District,35789 Pacific Coast Hwy,SA,,34.04716257,-118.93309434,6,-118.93309434,34.04716257
-8050,Stunt Road - BBT Connector,CA State Parks - Malibu Creek,10156,101560000,TAPO,Added From NPS ParkEntrancePts.shp,0,Unincorporated Los Angeles County,91302,3rd District,814 Stunt Rd,ST,,34.08599879,-118.66008813,7,-118.66008813,34.08599879
-7774,Modelo Trail,National Parks Service,20085,200850000,TH,Auto Generated and Verified,1011,Unincorporated Los Angeles County,91301,3rd District,Cheseboro Canyon Rd and Cheseboro Road,SA,,34.15655231,-118.73083841,8,-118.73083841,34.15655231
-8051,Glade Trail - Topanga,CA State Parks - Topanga,10070,100700000,TAPO,Auto Generated and Verified,1191,Los Angeles,90290,3rd District,20800 Entrada Rd,SA,,34.09336192,-118.58731966,9,-118.58731966,34.09336192
-7775,Monte Nido Connector,National Parks Service,20087,200870000,TAPO,Auto Generated and Verified,632,Unincorporated Los Angeles County,91302,3rd District,803 Wonder View Dr,ST,,34.08304412,-118.68487637,10,-118.68487637,34.08304412
-7758,Lower Stunt High Trail,National Parks Service,20076,200760000,TH,Auto Generated and Verified,1263,Unincorporated Los Angeles County,91302,3rd District,1623 Stunt Rd,ST,,34.09492784,-118.64824444,11,-118.64824444,34.09492784
-7776,Morrison Ranch Trail,National Parks Service,20088,200880000,TH,Auto Generated and Verified,809,Calabasas,91302,3rd District,5539 Las Virgenes Rd,ST,,34.15762013,-118.70056931,12,-118.70056931,34.15762013
-7630,92 Trail,CA State Parks - Topanga,10002,100020000,TAPO,Auto Generated and Verified,1158,Unincorporated Los Angeles County,90290,3rd District,21042 Entrada Rd,ST,,34.09205297,-118.59242306,13,-118.59242306,34.09205297
-7781,Musch Camp Access Road,CA State Parks - Topanga,10115,101150000,TAPO,Auto Generated and Verified,1085,Unincorporated Los Angeles County,90290,3rd District,20846 Hillside Dr,ST,,34.10392797,-118.58902806,14,-118.58902806,34.10392797
-7782,Backbone Trail - Musch Trail,CA State Parks - Topanga,10118,101180000,TAPO,Auto Generated and Verified,1184,Unincorporated Los Angeles County,90290,3rd District,20800 Entrada Rd,SA,,34.09359514,-118.58745787,15,-118.58745787,34.09359514
-7632,Agoura Equestrian Center Connector Trail,National Parks Service,20002,200020000,TH,Auto Generated and Verified,1011,Unincorporated Los Angeles County,91301,3rd District,Cheseboro Canyon Rd and Cheseboro Road,SA,,34.15655231,-118.73083841,16,-118.73083841,34.15655231
-7783,Nature Trail,CA State Parks - Topanga,10119,101190001,TAPO,Auto Generated and Verified,1184,Los Angeles,90290,3rd District,20800 Entrada Rd,SA,,34.09356836,-118.58736273,17,-118.58736273,34.09356836
-7633,Amy Way Trail,CA State Parks - Topanga,10003,100030000,TAPO,Auto Generated and Verified,1304,Los Angeles,90290,3rd District,298 Amy Way,ST,,34.08838793,-118.59056012,18,-118.59056012,34.08838793
-7924,Backbone Trail,National Parks Service,30012,200190000,TH,Confirmed with NPS data points,1540,Unincorporated Los Angeles County,90265,3rd District,1701 S Kanan Dume Rd,SA,,34.07613002,-118.81594009,19,-118.81594009,34.07613002
-7784,Newton Motorway (Cessna Drive),National Parks Service,20092,200920000,TH,Auto Generated and Verified,2243,Unincorporated Los Angeles County,90265,3rd District,Newton Mtwy,ST,,34.07766185,-118.78848679,20,-118.78848679,34.07766185
-7788,Nicholas Flat Trail,CA State Parks - Leo Carrillo,10121,101210000,TAPO,Auto Generated and Verified,18,Unincorporated Los Angeles County,90265,3rd District,35789 Pacific Coast Hwy,SA,,34.04683663,-118.93306537,21,-118.93306537,34.04683663
-7789,Nicholas Flat Trail,CA State Parks - Leo Carrillo,10121,101210000,TH,Auto Generated and Verified,1483,Unincorporated Los Angeles County,90265,3rd District,33700 Decker School Rd,ST,,34.07061305,-118.90648716,22,-118.90648716,34.07061305
-7790,North Grasslands Trail,CA State Parks - Malibu Creek,10127,101270000,TH,Auto Generated and Verified,584,Unincorporated Los Angeles County,91302,3rd District,26951 Mulholland Hwy,ST,,34.10349595,-118.71383463,23,-118.71383463,34.10349595
-7791,Kanan - Edison Road,National Parks Service,20071,200710008,TAPO,Auto Generated and Verified,113,Malibu,90265,3rd District,End of Bonsall Drive,SA,,34.03448596,-118.81219041,24,-118.81219041,34.03448596
-7794,Park Entrance Road,CA State Parks - Malibu Creek,10129,101290000,TAPO,Auto Generated and Verified,539,Unincorporated Los Angeles County,91302,3rd District,27347 Waycross Dr,SA,,34.0959552,-118.71705847,25,-118.71705847,34.0959552
-7799,Peter Strauss Ranch Loop Trail,National Parks Service,20100,201000000,TAPO,Auto Generated and Verified,761,Unincorporated Los Angeles County,91301,3rd District,Waring Drive and Mullholland Hwy,SA,,34.11300414,-118.77951743,26,-118.77951743,34.11300414
-7801,Phantom Trail,CA State Parks - Malibu Creek,10132,101320000,TAPO,Auto Generated and Verified,1007,Unincorporated Los Angeles County,91302,3rd District,27663 Mulholland Hwy,ST,,34.10614389,-118.73228731,27,-118.73228731,34.10614389
-7802,Polo Field Road,CA State Parks - Will Rogers,10136,101360000,TAPO,Auto Generated and Verified,426,Los Angeles,90272,3rd District,1798 Will Rogers State Park Rd,SA,,34.05460117,-118.51076068,28,-118.51076068,34.05460117
-7804,Potrero Road,National Parks Service,20102,201020000,TAPO,Auto Generated and Verified,1333,Malibu,90265,3rd District,Encinal Canyon Rod and Carmichael Rd,SA,,34.05441893,-118.8798419,29,-118.8798419,34.05441893
-7805,Potrero Road,National Parks Service,20102,201020000,TAPO,Auto Generated and Verified,1457,Unincorporated Los Angeles County,90265,3rd District,Potrero Rd,SA,,34.06107711,-118.88078973,30,-118.88078973,34.06107711
-7808,Ramirez Accessible Trail,National Parks Service,20105,201050000,TAPO,Auto Generated and Verified,246,Unincorporated Los Angeles County,90265,3rd District,None,N,,34.03867392,-118.79401621,31,-118.79401621,34.03867392
-7810,Ranch House Trail - Upper,CA State Parks - Will Rogers,10141,101410000,TH,Auto Generated and Verified,449,Los Angeles,90272,3rd District,1677 Will Rogers State Park Rd,SA,,34.05461208,-118.51321084,32,-118.51321084,34.05461208
-7811,Red Rock Road,National Parks Service,20106,201060000,TAPO,Auto Generated and Verified,988,Unincorporated Los Angeles County,90290,3rd District,1277 Old Topanga Canyon Rd,ST,,34.1042316,-118.62829936,33,-118.62829936,34.1042316
-7812,Red Rock Trail,National Parks Service,20107,201070000,TAPO,Auto Generated and Verified,1508,Unincorporated Los Angeles County,90290,3rd District,,ST,,34.10937642,-118.64114592,34,-118.64114592,34.10937642
-7813,Reseda Spur Trail,CA State Parks - Topanga,10142,101420000,TH,Auto Generated and Verified,1611,Los Angeles,91356,3rd District,3001 Reseda Blvd,ST,,34.13047896,-118.55299776,35,-118.55299776,34.13047896
-7814,Ridge-Canyon Access Trail,National Parks Service,20108,201080000,TH,Auto Generated and Verified,426,Malibu,90265,3rd District,5555 Busch Dr,SA,,34.03400787,-118.81809649,36,-118.81809649,34.03400787
-7815,Rising Sun Trail,National Parks Service,20109,201090000,TH,Auto Generated and Verified,299,Malibu,90265,3rd District,North of Solstice Canyon Rd and Corral Canyon Rd,SA,,34.0390797,-118.74991209,37,-118.74991209,34.0390797
-7818,Rocky Oaks Loop Trail,National Parks Service,20112,201120000,TH,Confirmed with NPS data points,1709,Unincorporated Los Angeles County,90265,3rd District,31520 Mulholland Hwy,SA,,34.09706364,-118.81409729,38,-118.81409729,34.09706364
-7819,Rustic Canyon Trail,CA State Parks - Topanga,30007,300070000,TAPO,Auto Generated and Verified,415,Los Angeles,90272,3rd District,1666 Will Rogers State Park Rd,SA,,34.0544161,-118.50962649,39,-118.50962649,34.0544161
-7820,Santa Maria Canyon Trail,National Parks Service,20114,201140000,TH,Auto Generated and Verified,1457,Unincorporated Los Angeles County,90290,3rd District,3110 N Summit Pointe Dr,ST,,34.13276493,-118.59133685,40,-118.59133685,34.13276493
-7823,Morrison Open Space SCE Road Trail,National Parks Service,20115,201150000,TH,Auto Generated and Verified,863,Calabasas,91302,3rd District,6063 Las Virgenes Rd,ST,,34.16761713,-118.7030497,41,-118.7030497,34.16761713
-7824,Sostomo Trail,National Parks Service,20118,201180000,TH,Auto Generated and Verified,368,Unincorporated Los Angeles County,90265,3rd District,Roberts Rd,ST,,34.04915457,-118.75414081,42,-118.75414081,34.04915457
-7825,South Bay Bicycle Trail,CA State Parks - Will Rogers,10153,101530000,TAPO,Auto Generated and Verified,22,Los Angeles,90272,3rd District,15314 Pacific Coast Hwy,ST,,34.03219919,-118.52879527,43,-118.52879527,34.03219919
-7826,South Bay Bicycle Trail,CA State Parks - Will Rogers,10153,101530000,TAPO,Auto Generated and Verified,24,Los Angeles,90272,3rd District,16300 Pacific Coast Hwy,ST,,34.03698547,-118.53916877,44,-118.53916877,34.03698547
-7827,South Beach Access Trail,CA State Parks - Leo Carrillo,10154,101540000,TAPO,Auto Generated and Verified,11,Unincorporated Los Angeles County,90265,3rd District,35907 Pacific Coast Hwy,SA,,34.04572343,-118.93436667,45,-118.93436667,34.04572343
-7829,Sullivan Ridge Fire Road,CA State Parks - Topanga,10158,101580000,TAPO,Auto Generated and Verified,965,Los Angeles,90272,3rd District,Sullivan Fire Rd,ST,,34.08108023,-118.51629918,46,-118.51629918,34.08108023
-7830,Summer Hill Ranch Road,National Parks Service,20119,201190000,TH,Auto Generated and Verified,1219,Unincorporated Los Angeles County,90290,3rd District,2164 Santa Maria Rd,ST,,34.12377639,-118.58805605,47,-118.58805605,34.12377639
-7832,Summit-to-Summit - Santa Maria Cyn Connector,National Parks Service,20120,201200000,TH,Auto Generated and Verified,1457,Unincorporated Los Angeles County,90290,3rd District,3110 N Summit Pointe Dr,ST,,34.13276493,-118.59133685,48,-118.59133685,34.13276493
-7834,Tapia Spur Trail,CA State Parks - Malibu Creek,10163,101630000,TH,Auto Generated and Verified,471,Unincorporated Los Angeles County,91302,3rd District,Piuma Road and Malibu Canyon Rd,SA,,34.08269423,-118.70637079,49,-118.70637079,34.08269423
-7836,Three Park Trail,National Parks Service,20122,201220000,TH,Auto Generated and Verified,1326,Unincorporated Los Angeles County,90265,3rd District,Carmichael Rd,SA,,34.05836011,-118.87920613,50,-118.87920613,34.05836011
-7838,Topanga Community House Trail,CA State Parks - Topanga,10168,101680000,TAPO,Auto Generated and Verified,1137,Unincorporated Los Angeles County,90290,3rd District,Topanga Canyon Boulevard and Oakwood Drive,SA,,34.11072135,-118.58875865,51,-118.58875865,34.11072135
-7839,Topanga Knoll Trail,CA State Parks - Topanga,10169,101690000,TAPO,Auto Generated and Verified,37,Unincorporated Los Angeles County,90265,3rd District,3989 Topanga Canyon Ln,SA,,34.0398352,-118.58194229,52,-118.58194229,34.0398352
-7841,Trancas-Edison Road,National Parks Service,20125,201250000,TAPO,Auto Generated and Verified,903,Unincorporated Los Angeles County,90265,3rd District,,ST,,34.06268162,-118.84240706,53,-118.84240706,34.06268162
-7842,Trancas Canyon SCE Road Trail ,CA State Parks - Malibu Creek,30001,300010000,TAPO,Auto Generated and Verified,1619,Unincorporated Los Angeles County,90265,3rd District,1063 Encinal Canyon Rd,SA,,34.08421021,-118.8470213,54,-118.8470213,34.08421021
-7844,Tuna Canyon Main Entrance Trail,National Parks Service,20127,201270000,TH,Auto Generated and Verified,1555,Unincorporated Los Angeles County,90290,3rd District,3200 Tuna Canyon Rd,ST,,34.05968704,-118.61654529,55,-118.61654529,34.05968704
-7845,Upper Encina Trail,CA State Parks - Topanga,10172,101720000,TAPO,Auto Generated and Verified,1056,Unincorporated Los Angeles County,90290,3rd District,21285 Entrada Rd,SA,,34.09300197,-118.59727006,56,-118.59727006,34.09300197
-7846,Upper Rustic Canyon Trail,CA State Parks - Topanga,10173,101730000,TAPO,Auto Generated and Verified,1247,Los Angeles,90272,3rd District,,ST,,34.12139753,-118.54295474,57,-118.54295474,34.12139753
-7847,Upper Stunt High Trail,National Parks Service,20128,201280000,TH,Auto Generated and Verified,1558,Unincorporated Los Angeles County,91302,3rd District,1213 Stunt Rd,ST,,34.09084031,-118.657153,58,-118.657153,34.09084031
-7849,Wayview Road,CA State Parks - Topanga,10175,101750000,TAPO,Auto Generated and Verified,1261,Unincorporated Los Angeles County,90290,3rd District,20878 Entrada Rd,ST,,34.09200014,-118.58894613,59,-118.58894613,34.09200014
-7850,Western Town Road A,National Parks Service,20129,201290000,TH,Auto Generated and Verified,738,Unincorporated Los Angeles County,91301,3rd District,Paramount Ranch Rd,SA,,34.11550054,-118.75525222,60,-118.75525222,34.11550054
-7851,Western Town Road B,National Parks Service,20130,201300000,TAPO,Auto Generated and Verified,744,Unincorporated Los Angeles County,91301,3rd District,Paramount Ranch Rd,SA,,34.11533303,-118.75633614,61,-118.75633614,34.11533303
-7852,Inspiration Point Loop Trail,CA State Parks - Will Rogers,10083,100830000,TAPO,Auto Generated and Verified,486,Los Angeles,90272,3rd District,1666 Will Rogers State Park Rd,SA,,34.05659278,-118.51230395,62,-118.51230395,34.05659278
-7853,Pasture Trail,CA State Parks - Will Rogers,10131,101310000,TH,Auto Generated and Verified,497,Los Angeles,90272,3rd District,1666 Will Rogers State Park Rd,SA,,34.05669021,-118.51278612,63,-118.51278612,34.05669021
-7854,Rivas Canyon Trail,CA State Parks - Will Rogers,30015,300150000,TAPO,Auto Generated and Verified,445,Los Angeles,90272,3rd District,1677 Will Rogers State Park Rd,SA,,34.05461471,-118.51335177,64,-118.51335177,34.05461471
-7855,Malibu Scenic Overlook Trail,CA State Parks - Leo Carrillo,10110,101760000,TAPO,,18,Unincorporated Los Angeles County,90265,3rd District,35907 Pacific Coast Hwy,SA,,34.04683663,-118.93306537,65,-118.93306537,34.04683663
-7858,Yearling Trail,CA State Parks - Malibu Creek,10179,101790000,TAPO,Auto Generated and Verified,838,Unincorporated Los Angeles County,91301,3rd District,28998 Mulholland Hwy,SA,,34.11307697,-118.75112705,66,-118.75112705,34.11307697
-7859,Yellow Hill Fire Road,CA State Parks - Leo Carrillo,10180,101800000,TAPO,Auto Generated and Verified,23,Unincorporated Los Angeles County,90265,3rd District,35399 Mulholland Hwy,SA,,34.04629397,-118.93519105,67,-118.93519105,34.04629397
-7861,Yucca Trail,National Parks Service,20132,201320000,TH,Auto Generated and Verified,1098,Unincorporated Los Angeles County,91302,3rd District,2002 Stunt Rd,ST,,34.10017112,-118.65397436,68,-118.65397436,34.10017112
-7863,Zuma Edison Road,National Parks Service,20135,201350000,TH,Confirmed with NPS data points,1323,Unincorporated Los Angeles County,90265,3rd District,2615 S Kanan Dume Rd,ST,,34.06138582,-118.80406238,69,-118.80406238,34.06138582
-7864,Zuma Loop Trail,National Parks Service,20136,201360000,TAPO,Auto Generated and Verified,112,Malibu,90265,3rd District,End of Bonsall Drive,SA,,34.03415266,-118.81225616,70,-118.81225616,34.03415266
-7865,Zuma Ridge Motorway,National Parks Service,20137,201370000,TH,Auto Generated and Verified,426,Malibu,90265,3rd District,5555 Busch Dr,SA,,34.03400787,-118.81809649,71,-118.81809649,34.03400787
-7867,Solstice Canyon Trail,National Parks Service,20117,201170000,TH,Added From NPS ParkEntrancePts.shp,51,Malibu,90265,3rd District,3998 Solstice Canyon Rd,SA,,34.03494817,-118.74450966,72,-118.74450966,34.03494817
-7868,Nicholas Ridge Trail,CA State Parks - Leo Carrillo,10126,,TAPO,Added per Dale's request,1483,Unincorporated Los Angeles County,90265,3rd District,33700 Decker School Rd,ST,,34.07061305,-118.90648716,73,-118.90648716,34.07061305
-7870,Piuma Connector Trail, ,10135,101350000,TAPO,Added From NPS ParkEntrancePts.shp,493,Unincorporated Los Angeles County,91302,3rd District,Mesa Peak Tractor Way and Malibu Canyon Rd,SA,,34.07994189,-118.70385553,74,-118.70385553,34.07994189
-7876,Mulholland Drive, ,20090,200900002,TH,Added From hard copy maps and state parks data,1879,Los Angeles,90049,3rd District,17460 Mulholland Dr,SA,,34.12904371,-118.51352284,75,-118.51352284,34.12904371
-7879,Bulldog Motorway,CA State Parks - Malibu Creek,30005,300050009,TAPO,Auto Generated and Verified,690,Unincorporated Los Angeles County,91301,3rd District,28848 Lake Vista Dr,SA,,34.09715876,-118.74874438,76,-118.74874438,34.09715876
-7880,California Coastal Trail,National Parks Service,10187,101870005,TAPO,Auto Generated and Verified,8,Malibu,90265,3rd District,23314 Malibu Colony Rd,SA,,34.0315031,-118.68185631,77,-118.68185631,34.0315031
-7884,Backbone Trail - Piuma Ridge, ,10018,100180000,TAPO,,485,Unincorporated Los Angeles County,91302,3rd District,897 Las Virgenes Rd,SA,,34.08316434,-118.70550111,78,-118.70550111,34.08316434
-7885,Nicholas Flat Trail, ,10121,101210000,TAPO,,13,Unincorporated Los Angeles County,90265,3rd District,35789 Pacific Coast Hwy,SA,,34.04620493,-118.9337354,79,-118.9337354,34.04620493
-7886,Pipe Corral Trail,CA State Parks - Will Rogers,10134,101340000,TAPO,Auto Generated and Verified,430,Los Angeles,90272,3rd District,14400 Villa Woods Pl,SA,,34.05453293,-118.51178947,80,-118.51178947,34.05453293
-7887,Talepop Trail, ,10162,101620000,TAPO,,549,Unincorporated Los Angeles County,91302,3rd District,27357 Waycross Dr,SA,,34.09675616,-118.71632979,81,-118.71632979,34.09675616
-7888,Winfield Trail, ,10177,101770000,TAPO,,1184,Unincorporated Los Angeles County,90290,3rd District,Entrada Rd,SA,,34.09340166,-118.587802,82,-118.587802,34.09340166
-7889,Temescal Canyon Trail, ,30014,300140000,TAPO,,325,Los Angeles,90272,3rd District,965 Temescal Canyon Rd,SA,,34.05316267,-118.5285875,83,-118.5285875,34.05316267
-7890,Bent Arrow Trail, ,10030,100300000,TAPO,,1724,Los Angeles,91356,3rd District,3001 Reseda Blvd,ST,,34.12863336,-118.553766,84,-118.553766,34.12863336
-7891,Temescal Ridge Trail, ,30013,300130001,TAPO,,1184,Unincorporated Los Angeles County,90290,3rd District,Entrada Rd,ST,,34.09340166,-118.587802,85,-118.587802,34.09340166
-7892,Chaparral Trail, ,10044,100440000,TAPO,,549,Unincorporated Los Angeles County,91302,3rd District,27359 Waycross Dr,SA,,34.0967567,-118.71623806,86,-118.71623806,34.0967567
-7893,Lost Cabin Trail, ,10107,101070000,TAPO,,549,Unincorporated Los Angeles County,91302,3rd District,27359 Waycross Dr,SA,,34.0967567,-118.71623806,87,-118.71623806,34.0967567
-7894,Mott Road, ,10114,101140000,TAPO,,549,Unincorporated Los Angeles County,91302,3rd District,27359 Waycross Dr,SA,,34.0967567,-118.71623806,88,-118.71623806,34.0967567
-7895,Liberty Canyon Fire Road,CA State Parks - Malibu Creek,10097,100970000,TH,Auto Generated and Verified,733,Agoura Hills,91301,3rd District,27353 Park Vista Rd,ST,,34.12771455,-118.72398417,89,-118.72398417,34.12771455
-7896,Phantom Trail,CA State Parks - Malibu Creek,10132,101320000,TAPO,Added From NPS ParkEntrancePts.shp,733,Agoura Hills,91301,3rd District,27353 Park Vista Rd,ST,,34.12771455,-118.72398417,90,-118.72398417,34.12771455
-7897,Tapia Spur Trail, ,10163,101630000,TAPO,,549,Unincorporated Los Angeles County,91302,3rd District,27359 Waycross Dr,SA,,34.0967567,-118.71623806,91,-118.71623806,34.0967567
-7898,Bulldog Motorway, ,30005,300050009,TAPO,,690,Unincorporated Los Angeles County,91302,3rd District,27359 Waycross Dr,SA,,34.09715876,-118.74874438,92,-118.74874438,34.09715876
-7899,Backbone Trail - Mesa Peak Motorway, ,10014,100140000,TAPO,,472,Unincorporated Los Angeles County,91302,3rd District,26261 Piuma Rd,SA,,34.0820577,-118.70432725,93,-118.70432725,34.0820577
-7900,Mott Road,CA State Parks - Malibu Creek,10114,101140000,TAPO,Auto Generated and Verified,539,Unincorporated Los Angeles County,91302,3rd District,27347 Waycross Dr,SA,,34.0959552,-118.71705847,94,-118.71705847,34.0959552
-7901,Tapia Spur Trail,CA State Parks - Malibu Creek,10163,101630000,TAPO,Auto Generated and Verified,539,Unincorporated Los Angeles County,91302,3rd District,27347 Waycross Dr,SA,,34.0959552,-118.71705847,95,-118.71705847,34.0959552
-7902,California Coastal Trail,National Parks Service,10187,101870008,TAPO,Auto Generated and Verified,10,Unincorporated Los Angeles County,90265,3rd District,18652 Pacific Coast Hwy,SA,,34.0386948,-118.58163761,96,-118.58163761,34.0386948
-7903,Inspiration Point Loop ADA Trail,CA State Parks - Will Rogers,10183,101830000,TAPO,Auto Generated and Verified,485,Los Angeles,90272,3rd District,1666 Will Rogers State Park Rd,SA,,34.05622642,-118.51297925,97,-118.51297925,34.05622642
-7905,Kanan - Edison Road,National Parks Service,20071,200710001,TAPO,Auto Generated and Verified,493,Malibu,90265,3rd District,,ST,,34.03415825,-118.80035747,98,-118.80035747,34.03415825
-7906,Backbone Trail,National Parks Service - Topanga,30012,200060000,TH,Auto Generated and Verified,1184,Unincorporated Los Angeles County,90290,3rd District,20801 Entrada Rd,SA,,34.09359514,-118.58745787,99,-118.58745787,34.09359514
-7907,Backbone Trail,National Parks Service,30012,200070000,TH,Auto Generated and Verified,1397,Unincorporated Los Angeles County,90265,3rd District,1063 Encinal Canyon Rd,SA,,34.08509415,-118.86148466,100,-118.86148466,34.08509415
-7908,Backbone Trail,CA State Parks - Topanga,30012,100090000,TAPO,Auto Generated and Verified,2397,Unincorporated Los Angeles County,90290,3rd District,24745 Saddle Peak Rd,SA,,34.08204765,-118.64411248,101,-118.64411248,34.08204765
-7909,Backbone Trail,CA State Parks - Topanga,30012,100090000,TAPO,Auto Generated and Verified,2353,Unincorporated Los Angeles County,90290,3rd District,23809 Saddle Peak Rd,SA,,34.08384526,-118.63591572,102,-118.63591572,34.08384526
-7910,Backbone Trail,CA State Parks - Topanga,30012,100100000,TAPO,Auto Generated and Verified,2353,Unincorporated Los Angeles County,90290,3rd District,23809 Saddle Peak Rd,SA,,34.08384526,-118.63591572,103,-118.63591572,34.08384526
-7911,Backbone Trail,CA State Parks - Topanga,30012,100100000,TH,Auto Generated and Verified,790,Unincorporated Los Angeles County,90290,3rd District,325 Old Topanga Canyon Rd,ST,,34.09304197,-118.60920706,104,-118.60920706,34.09304197
-7912,Backbone Trail,National Parks Service,30012,200100000,TH,Confirmed with NPS data points,2044,Unincorporated Los Angeles County,90265,3rd District,1770 Latigo Canyon Rd,SA,,34.07790737,-118.79391645,105,-118.79391645,34.07790737
-7913,Backbone Trail,CA State Parks - Will Rogers,30012,100120000,TAPO,Auto Generated and Verified,426,Los Angeles,90272,3rd District,1666 Will Rogers State Park Rd,SA,,34.0543065,-118.51317308,106,-118.51317308,34.0543065
-7914,Backbone Trail,CA State Parks - Malibu Creek,30012,100140000,TH,Auto Generated and Verified,1992,Unincorporated Los Angeles County,90265,3rd District,Castro Peak Mtwy,SA,,34.08200797,-118.75840606,107,-118.75840606,34.08200797
-7915,Backbone Trail,National Parks Service,30012,200120000,TH,Confirmed with NPS data points,1540,Unincorporated Los Angeles County,90265,3rd District,1701 S Kanan Dume Rd,SA,,34.07613002,-118.81594009,108,-118.81594009,34.07613002
-7916,Backbone Trail,National Parks Service,30012,200120000,TH,Confirmed with NPS data points,2044,Unincorporated Los Angeles County,90265,3rd District,1770 Latigo Canyon Rd,SA,,34.07790737,-118.79391645,109,-118.79391645,34.07790737
-7917,Backbone Trail,CA State Parks - Topanga,30012,100160000,TH,Auto Generated and Verified,790,Unincorporated Los Angeles County,90290,3rd District,325 Old Topanga Canyon Rd,ST,,34.09304197,-118.60920706,110,-118.60920706,34.09304197
-7918,Backbone Trail,CA State Parks - Topanga,30012,100070000,TAPO,Auto Generated and Verified,851,Unincorporated Los Angeles County,90290,3rd District,21943 Entrada Rd,SA,,34.0945216,-118.60088718,111,-118.60088718,34.0945216
-7919,Backbone Trail,CA State Parks - Malibu Creek,30012,100180000,TH,Auto Generated and Verified,463,Unincorporated Los Angeles County,91302,3rd District,26278 Piuma Rd,SA,,34.08180404,-118.70337732,112,-118.70337732,34.08180404
-7920,Backbone Trail,CA State Parks - Malibu Creek,30012,300020000,TH,Auto Generated and Verified,2374,Unincorporated Los Angeles County,90290,3rd District,24839 Saddle Peak Rd,SA,,34.08127044,-118.64508228,113,-118.64508228,34.08127044
-7921,Backbone Trail,National Parks Service,30012,200160000,TH,Auto Generated and Verified,2374,Unincorporated Los Angeles County,90290,3rd District,24839 Saddle Peak Rd,SA,,34.08127044,-118.64508228,114,-118.64508228,34.08127044
-7922,Backbone Trail,National Parks Service,30012,200160000,TAPO,Auto Generated and Verified,2397,Unincorporated Los Angeles County,90290,3rd District,24745 Saddle Peak Rd,SA,,34.08204765,-118.64411248,115,-118.64411248,34.08204765
-7923,Backbone Trail,CA State Parks - Malibu Creek,30012,300040000,TH,Auto Generated and Verified,1992,Unincorporated Los Angeles County,90265,3rd District,Castro Peak Mtwy,SA,,34.08200797,-118.75840606,116,-118.75840606,34.08200797
-7634,Ann Skager Trail,CA State Parks - Malibu Creek,10004,100040000,TAPO,Auto Generated and Verified,540,Unincorporated Los Angeles County,91302,3rd District,27371 Waycross Dr,SA,,34.09632877,-118.71438438,117,-118.71438438,34.09632877
-7635,Arroyo Sequit Entrance Road,National Parks Service,20003,200030000,TH,Auto Generated and Verified,1095,Unincorporated Los Angeles County,90265,3rd District,34136 Mulholland Hwy,SA,,34.08919965,-118.89083761,118,-118.89083761,34.08919965
-7636,Arroyo Sequit Loop Trail,National Parks Service,20004,200040000,TH,Auto Generated and Verified,1156,Unincorporated Los Angeles County,90265,3rd District,34136 Mullholland Hwy,SA,,34.08629292,-118.89096112,119,-118.89096112,34.08629292
-7637,Arroyo Sequit Loop Trail,National Parks Service,20004,200040000,TH,Auto Generated and Verified,1156,Unincorporated Los Angeles County,90265,3rd District,34136 Mullholland Hwy,SA,,34.08657347,-118.89016199,120,-118.89016199,34.08657347
-7638,Backbone Trail - Connector,National Parks Service,20005,200050000,TH,Confirmed with NPS data points,1576,Unincorporated Los Angeles County,90265,3rd District,1129 S Kanan Dume Rd,ST,,34.07871162,-118.81804678,121,-118.81804678,34.07871162
-7639,Backbone Trail - Encinal to Mulholland,National Parks Service,20007,200070000,TH,Auto Generated and Verified,1397,Unincorporated Los Angeles County,90265,3rd District,1063 Encinal Canyon Rd,SA,,34.08509415,-118.86148466,122,-118.86148466,34.08509415
-7642,Backbone Trail - Fossil Ridge,CA State Parks - Topanga,10009,100090000,TAPO,Auto Generated and Verified,2397,Unincorporated Los Angeles County,90290,3rd District,24745 Saddle Peak Rd,SA,,34.08204765,-118.64411248,123,-118.64411248,34.08204765
-7643,Backbone Trail - Fossil Ridge,CA State Parks - Topanga,10009,100090000,TAPO,Auto Generated and Verified,2353,Unincorporated Los Angeles County,90290,3rd District,23809 Saddle Peak Rd,SA,,34.08384526,-118.63591572,124,-118.63591572,34.08384526
-7644,Backbone Trail - Hondo Canyon Trail,CA State Parks - Topanga,10010,100100000,TAPO,Auto Generated and Verified,2353,Unincorporated Los Angeles County,90290,3rd District,23809 Saddle Peak Rd,SA,,34.08384526,-118.63591572,125,-118.63591572,34.08384526
-7645,Backbone Trail - Hondo Canyon Trail,CA State Parks - Topanga,10010,100100000,TH,Auto Generated and Verified,790,Unincorporated Los Angeles County,90290,3rd District,325 Old Topanga Canyon Rd,ST,,34.09304197,-118.60920706,126,-118.60920706,34.09304197
-7646,Backbone Trail - Latigo Canyon,National Parks Service,20010,200100000,TH,Confirmed with NPS data points,2044,Unincorporated Los Angeles County,90265,3rd District,1770 Latigo Canyon Rd,SA,,34.07790737,-118.79391645,127,-118.79391645,34.07790737
-7647,Backbone Trail - Lower Betty Rogers,CA State Parks - Will Rogers,10012,100120000,TAPO,Auto Generated and Verified,426,Los Angeles,90272,3rd District,1666 Will Rogers State Park Rd,SA,,34.0543065,-118.51317308,128,-118.51317308,34.0543065
-7648,Backbone Trail - Upper Solstice Canyon,CA State Parks - Malibu Creek,30004,100140000,TH,Auto Generated and Verified,1992,Unincorporated Los Angeles County,90265,3rd District,Castro Peak Mtwy,SA,,34.08200797,-118.75840606,129,-118.75840606,34.08200797
-7649,Backbone Trail - Mulholland to Etz Meloy,National Parks Service,20011,200110000,TAPO,Auto Generated and Verified,1622,Unincorporated Los Angeles County,90265,3rd District,33286 Mulholland Hwy,ST,,34.09166241,-118.86713927,130,-118.86713927,34.09166241
-7650,Backbone Trail - Newton Canyon,National Parks Service,20012,200120000,TH,Confirmed with NPS data points,1540,Unincorporated Los Angeles County,90265,3rd District,1701 S Kanan Dume Rd,SA,,34.07613002,-118.81594009,131,-118.81594009,34.07613002
-7651,Backbone Trail - Newton Canyon,National Parks Service,20012,200120000,TH,Confirmed with NPS data points,2044,Unincorporated Los Angeles County,90265,3rd District,1770 Latigo Canyon Rd,SA,,34.07790737,-118.79391645,132,-118.79391645,34.07790737
-7652,Backbone Trail - Topanga School Trail,CA State Parks - Topanga,10016,100160000,TH,Auto Generated and Verified,790,Unincorporated Los Angeles County,90290,3rd District,325 Old Topanga Canyon Rd,ST,,34.09304197,-118.60920706,133,-118.60920706,34.09304197
-7653,Backbone Trail - Dead Horse Trail,CA State Parks - Topanga,10007,100070000,TAPO,Auto Generated and Verified,851,Unincorporated Los Angeles County,90290,3rd District,21943 Entrada Rd,SA,,34.0945216,-118.60088718,134,-118.60088718,34.0945216
-7654,Backbone Trail - Piuma Connector Trail,National Parks Service,10017,200140000,TAPO,Auto Generated and Verified,500,Unincorporated Los Angeles County,91302,3rd District,,SA,,34.08018216,-118.70424849,135,-118.70424849,34.08018216
-7656,Backbone Trail - Piuma Ridge,CA State Parks - Malibu Creek,10018,100180000,TH,Auto Generated and Verified,463,Unincorporated Los Angeles County,91302,3rd District,26278 Piuma Rd,SA,,34.08180404,-118.70337732,136,-118.70337732,34.08180404
-7658,Backbone Trail - Saddle Peak,CA State Parks - Malibu Creek,30002,300020000,TH,Auto Generated and Verified,2374,Unincorporated Los Angeles County,90290,3rd District,24839 Saddle Peak Rd,SA,,34.08127044,-118.64508228,137,-118.64508228,34.08127044
-7659,Backbone Trail - Topanga Ridge Motorway,National Parks Service,20016,200160000,TH,Auto Generated and Verified,2374,Unincorporated Los Angeles County,90290,3rd District,24839 Saddle Peak Rd,SA,,34.08127044,-118.64508228,138,-118.64508228,34.08127044
-7660,Backbone Trail - Topanga Ridge Motorway,National Parks Service,20016,200160000,TAPO,Auto Generated and Verified,2397,Unincorporated Los Angeles County,90290,3rd District,24745 Saddle Peak Rd,SA,,34.08204765,-118.64411248,139,-118.64411248,34.08204765
-7661,Backbone Trail - Trancas Canyon,CA State Parks - Malibu Creek,30003,300030000,TH,Auto Generated and Verified,1397,Unincorporated Los Angeles County,90265,3rd District,1063 Encinal Canyon Rd,SA,,34.08509415,-118.86148466,140,-118.86148466,34.08509415
-7664,Backbone Trail - Upper Solstice Canyon,CA State Parks - Malibu Creek,30004,300040000,TH,Auto Generated and Verified,1992,Unincorporated Los Angeles County,90265,3rd District,Castro Peak Mtwy,SA,,34.08200797,-118.75840606,141,-118.75840606,34.08200797
-7665,Backbone Trail - Zuma Canyon,National Parks Service,20019,200190000,TH,Confirmed with NPS data points,1540,Unincorporated Los Angeles County,90265,3rd District,1701 S Kanan Dume Rd,SA,,34.07613002,-118.81594009,142,-118.81594009,34.07613002
-7666,Backdrop Trail,National Parks Service,20021,200210000,TAPO,Auto Generated and Verified,836,Unincorporated Los Angeles County,91301,3rd District,2900 Cornell Rd,SA,,34.11996225,-118.76161382,143,-118.76161382,34.11996225
-7667,Barn Service Road,CA State Parks - Will Rogers,10026,100260000,TAPO,Auto Generated and Verified,429,Los Angeles,90272,3rd District,1798 Will Rogers State Park Rd,SA,,34.05453782,-118.5115503,144,-118.5115503,34.05453782
-7668,Beverly Drive -Franklin Canyon Connector Trail,National Parks Service,20022,200220000,TAPO,Auto Generated and Verified,809,Unincorporated Los Angeles County,90210,3rd District,2054 N Beverly Dr,ST,,34.10863802,-118.41711857,145,-118.41711857,34.10863802
-7671,Botany Trail,National Parks Service,20025,200250000,TAPO,Auto Generated and Verified,1326,Unincorporated Los Angeles County,90265,3rd District,Carmichael Rd,SA,,34.05805072,-118.87953786,146,-118.87953786,34.05805072
-7673,Calabasas - Cold Creek Trail,National Parks Service,20030,200300000,TAPO,Auto Generated and Verified,726,Unincorporated Los Angeles County,91302,3rd District,1401 Cold Canyon Rd,ST,,34.09244337,-118.67987643,147,-118.67987643,34.09244337
-7675,Calabasas Peak Motorway,National Parks Service,20031,200310000,TH,Auto Generated and Verified,1252,Unincorporated Los Angeles County,91302,3rd District,1658 Stunt Rd,ST,,34.09530499,-118.64953823,148,-118.64953823,34.09530499
-7677,California Coastal Trail,National Parks Service,10187,101870000,TAPO,Auto Generated and Verified,6,Malibu,90265,3rd District,29377 Cliffside Drive,ST,,34.00241601,-118.80509988,149,-118.80509988,34.00241601
-7678,California Coastal Trail,National Parks Service,10187,101870000,TAPO,Auto Generated and Verified,25,Los Angeles,90272,3rd District,17301 Pacific Coast Hwy,SA,,34.03811072,-118.55581916,150,-118.55581916,34.03811072
-7679,California Coastal Trail,National Parks Service,10187,101870000,TAPO,Auto Generated and Verified,25,Malibu,90265,3rd District,Westward Beach Rd,SA,,34.00217237,-118.80836255,151,-118.80836255,34.00217237
-7680,California Coastal Trail,National Parks Service,10187,101870000,TAPO,Auto Generated and Verified,28,Unincorporated Los Angeles County,90265,3rd District,36424 Pacific Coast Hwy,SA,,34.04427179,-118.93810855,152,-118.93810855,34.04427179
-7682,Castro Motorway,CA State Parks - Malibu Creek,30006,300060004,TH,Auto Generated and Verified,1992,Unincorporated Los Angeles County,90265,3rd District,Castro Peak Mtwy,SA,,34.08200797,-118.75840606,153,-118.75840606,34.08200797
-7684,Charmichael Knob Trail,National Parks Service,20036,200360000,TAPO,Auto Generated and Verified,1394,Unincorporated Los Angeles County,90265,3rd District,Carmichael Rd,SA,,34.05562738,-118.88027452,154,-118.88027452,34.05562738
-7685,Charmichael Knob Trail,National Parks Service,20036,200360000,TAPO,Auto Generated and Verified,1333,Malibu,90265,3rd District,Encinal Canyon Road and Carmichael Road,SA,,34.05441893,-118.8798419,155,-118.8798419,34.05441893
-7686,Charmichael Road,National Parks Service,20037,200370000,TH,Auto Generated and Verified,1326,Unincorporated Los Angeles County,90265,3rd District,2619 Encinal Canyon Rd,SA,,34.05836011,-118.87920613,156,-118.87920613,34.05836011
-7687,Cheeseboro Canyon Trail,National Parks Service,20038,200380000,TH,Auto Generated and Verified,1011,Unincorporated Los Angeles County,91301,3rd District,Cheseboro Canyon Rd and Cheseboro Road,SA,,34.15655231,-118.73083841,157,-118.73083841,34.15655231
-7688,Chumash Indian Trail,National Parks Service,20040,200400000,TH,Auto Generated and Verified,126,Malibu,90265,3rd District,6357 Sea Star Drive,ST,,34.03376859,-118.83919916,158,-118.83919916,34.03376859
-7689,Cii Debora Spur Trail,CA State Parks - Topanga,20041,200410000,TAPO,Auto Generated and Verified,1544,Los Angeles,90272,3rd District,16701 Via la Costa,SA,,34.0763032,-118.54620041,159,-118.54620041,34.0763032
-7690,Cistern Trail,CA State Parks - Malibu Creek,10046,100460000,TAPO,Auto Generated and Verified,1015,Unincorporated Los Angeles County,91302,3rd District,27637 Mulholland Hwy,ST,,34.10528844,-118.73170987,160,-118.73170987,34.10528844
-7691,Clark Ranch Road,National Parks Service,20042,200420000,TH,Auto Generated and Verified,1378,Unincorporated Los Angeles County,90265,3rd District,1091 Encinal Canyon Rd,SA,,34.08561311,-118.86277104,161,-118.86277104,34.08561311
-7692,Cold Creek Trail,National Parks Service,20045,200450000,TAPO,Auto Generated and Verified,1005,Unincorporated Los Angeles County,91302,3rd District,2121 McKain St,ST,,34.09904147,-118.65767,162,-118.65767,34.09904147
-7693,Coyote Canyon Trail,National Parks Service,20048,200480000,TAPO,Auto Generated and Verified,756,Unincorporated Los Angeles County,91301,3rd District,Paramount Ranch Rd,SA,,34.11579905,-118.75716839,163,-118.75716839,34.11579905
-7696,Crags Road,CA State Parks - Malibu Creek,10048,100480000,TAPO,Auto Generated and Verified,540,Unincorporated Los Angeles County,91302,3rd District,1670 Las Virgenes Rd,SA,,34.09632877,-118.71438438,164,-118.71438438,34.09632877
-7697,Crags Road,CA State Parks - Malibu Creek,10048,100480033,TAPO,Auto Generated and Verified,774,Unincorporated Los Angeles County,91301,3rd District,28902 Crags Dr,ST,,34.10244193,-118.75446119,165,-118.75446119,34.10244193
-7698,Deer Grass Trail,National Parks Service,20051,200510001,TH,Auto Generated and Verified,1098,Unincorporated Los Angeles County,91302,3rd District,2002 Stunt Rd,ST,,34.10017112,-118.65397436,166,-118.65397436,34.10017112
-7699,Discovery Trail,National Parks Service,20053,200530000,TAPO,Auto Generated and Verified,610,Unincorporated Los Angeles County,90210,3rd District,1648 Lake Dr,SA,,34.10633431,-118.41529091,167,-118.41529091,34.10633431
-7700,Discovery Trail,National Parks Service,20053,200530000,TAPO,Auto Generated and Verified,635,Unincorporated Los Angeles County,90210,3rd District,1824 Lake Dr,SA,,34.1088751,-118.41548164,168,-118.41548164,34.1088751
-7701,Dome Trail,CA State Parks - Topanga,10056,100560000,TAPO,Auto Generated and Verified,851,Unincorporated Los Angeles County,90290,3rd District,21943 Entrada Rd,SA,,34.0945216,-118.60088718,169,-118.60088718,34.0945216
-7702,Dorothy Drive,National Parks Service,20054,200540000,TH,Auto Generated and Verified,471,Unincorporated Los Angeles County,91302,3rd District,Piuma Road and Malibu Canyon Rd,SA,,34.08269423,-118.70637079,170,-118.70637079,34.08269423
-7703,Dorothy Drive,National Parks Service,20054,200540003,TAPO,Auto Generated and Verified,502,Unincorporated Los Angeles County,91302,3rd District,911 Las Virgenes Rd,SA,,34.08350828,-118.70499218,171,-118.70499218,34.08350828
-7705,Dume Canyon Motorway,National Parks Service,20055,200550000,TAPO,Confirmed with NPS data points,1126,Unincorporated Los Angeles County,90265,3rd District,2998 S Kanan Dume Rd,ST,,34.05622044,-118.79841735,172,-118.79841735,34.05622044
-7708,East Meadow Trail,National Parks Service,20056,200560000,TAPO,Auto Generated and Verified,1268,Malibu,90265,3rd District,3620 Noranda Ln,SA,,34.05398272,-118.8778504,173,-118.8778504,34.05398272
-7710,East Topanga Fire Road,CA State Parks - Topanga,10059,100590013,TAPO,Auto Generated and Verified,1191,Los Angeles,90290,3rd District,20800 Entrada Rd,SA,,34.09336192,-118.58731966,174,-118.58731966,34.09336192
-7712,Ed Edelman North Loop Trail,National Parks Service,20058,200580000,TH,Auto Generated and Verified,1300,Unincorporated Los Angeles County,90290,3rd District,2747 N Topanga Canyon Blvd,SA,,34.12736966,-118.59884359,175,-118.59884359,34.12736966
-7714,Entrada Connector Trail,CA State Parks - Topanga,10063,100630000,TAPO,Auto Generated and Verified,851,Unincorporated Los Angeles County,90290,3rd District,21943 Entrada Rd,SA,,34.0945216,-118.60088718,176,-118.60088718,34.0945216
-7715,Farmer Ridge Fire Road,CA State Parks - Topanga,10064,100640000,TH,Auto Generated and Verified,1560,Los Angeles,90272,3rd District,18664 Mulholland Dr,ST,,34.12756597,-118.54204606,177,-118.54204606,34.12756597
-7716,Fire Road Twenty-nine,National Parks Service - Topanga,20062,200620000,TH,Auto Generated and Verified,1595,Los Angeles,91356,3rd District,3001 Reseda Blvd,ST,,34.13130356,-118.55316856,178,-118.55316856,34.13130356
-7717,Glade Trail,CA State Parks - Topanga,20063,100700000,TH,Confirmed with NPS data points,1709,Unincorporated Los Angeles County,90265,3rd District,31520 Mulholland Hwy,SA,,34.09706364,-118.81409729,179,-118.81409729,34.09706364
-7718,Glen Spur Trail,CA State Parks - Topanga,10071,100710000,TAPO,Auto Generated and Verified,851,Unincorporated Los Angeles County,90290,3rd District,21943 Entrada Rd,SA,,34.09452162,-118.60088719,180,-118.60088719,34.09452162
-7719,Glen Trail,CA State Parks - Topanga,10072,100720000,TH,Auto Generated and Verified,848,Unincorporated Los Angeles County,90290,3rd District,21943 Entrada Rd,SA,,34.09478028,-118.60075762,181,-118.60075762,34.09478028
-7720,Grassland Trail,CA State Parks - Malibu Creek,10074,100740000,TH,Auto Generated and Verified,584,Unincorporated Los Angeles County,91302,3rd District,26951 Mulholland Hwy,ST,,34.10349595,-118.71383463,182,-118.71383463,34.10349595
-7721,Hacienda Trail,National Parks Service,20064,200640000,TAPO,Auto Generated and Verified,773,Unincorporated Los Angeles County,91301,3rd District,Paramount Ranch Drive and Cornell Road,SA,,34.11664663,-118.75766873,183,-118.75766873,34.11664663
-7723,Hastain Trail,National Parks Service,20065,200650000,TH,Auto Generated and Verified,676,Unincorporated Los Angeles County,90210,3rd District,1999 Lake Dr,SA,,34.11156355,-118.4151829,184,-118.4151829,34.11156355
-7724,Hastain Trail Connector,National Parks Service,20066,200660000,TAPO,Auto Generated and Verified,623,Unincorporated Los Angeles County,90210,3rd District,1748 Lake Dr,SA,,34.10776616,-118.41552265,185,-118.41552265,34.10776616
-7726,Henry Ridge Motorway,CA State Parks - Topanga,10077,100770000,TAPO,Auto Generated and Verified,1210,Unincorporated Los Angeles County,90290,3rd District,21998 Gold Stone Rd,ST,,34.09625097,-118.60839406,186,-118.60839406,34.09625097
-7925,Backbone Trail,CA State Parks - Topanga,30012,101180000,TAPO,Auto Generated and Verified,1184,Unincorporated Los Angeles County,90290,3rd District,20800 Entrada Rd,SA,,34.09359514,-118.58745787,187,-118.58745787,34.09359514
-7727,Hillside Drive Connector Trail,CA State Parks - Topanga,10080,100800000,TAPO,Auto Generated and Verified,1125,Unincorporated Los Angeles County,90290,3rd District,20610 Hillside Dr,ST,,34.09972497,-118.58690706,188,-118.58690706,34.09972497
-7728,Hondo Canyon Trail Connector,CA State Parks - Topanga,10081,100810000,TH,Auto Generated and Verified,2355,Unincorporated Los Angeles County,90290,3rd District,23809 Saddle Peak Rd,ST,,34.08370135,-118.63602833,189,-118.63602833,34.08370135
-7731,Jungle Trail,National Parks Service,20070,200700000,TAPO,Auto Generated and Verified,809,Unincorporated Los Angeles County,91301,3rd District,3619 Cornell Rd,ST,,34.12530143,-118.7499441,190,-118.7499441,34.12530143
-7732,Kanan - Edison Road,National Parks Service,20071,200710000,TAPO,Confirmed with NPS data points,1126,Unincorporated Los Angeles County,90265,3rd District,2998 S Kanan Dume Rd,ST,,34.05622044,-118.79841735,191,-118.79841735,34.05622044
-7733,King Gillette Fire Road,CA State Parks - Malibu Creek,10089,100890000,TH,Auto Generated and Verified,658,Unincorporated Los Angeles County,91302,3rd District,Mullholland Highway and Stokes Canyon Rd,SA,,34.09985715,-118.70257291,192,-118.70257291,34.09985715
-7735,Las Virgenes Trail,CA State Parks - Malibu Creek,10091,100910000,TH,Auto Generated and Verified,610,Unincorporated Los Angeles County,91302,3rd District,2521 Lad Virgenes Rd,ST,,34.10894653,-118.71417366,193,-118.71417366,34.10894653
-7736,Las Virgenes Trail,CA State Parks - Malibu Creek,10091,100910000,TH,Auto Generated and Verified,697,Calabasas,91301,3rd District,3713 Lost Hills Rd,SA,,34.12655341,-118.70680531,194,-118.70680531,34.12655341
-7737,Las Virgenes View Trail,National Parks Service,20073,200730000,TH,Auto Generated and Verified,602,Calabasas,91302,3rd District,26885 Mulholland Hwy,SA,,34.10418717,-118.71116974,195,-118.71116974,34.10418717
-7739,Leo Carrillo Bluff Trail,CA State Parks - Leo Carrillo,10093,100930000,TAPO,Auto Generated and Verified,8,Unincorporated Los Angeles County,90265,3rd District,35998 Pacific Coast Hwy,SA,,34.04443029,-118.93459393,196,-118.93459393,34.04443029
-7740,Leo Carrillo Bluff Trail,CA State Parks - Leo Carrillo,10093,100930000,TAPO,Auto Generated and Verified,28,Unincorporated Los Angeles County,90265,3rd District,36424 Pacific Coast Hwy,SA,,34.04427179,-118.93810855,197,-118.93810855,34.04427179
-7741,Leo Carrillo Bluff Trail,CA State Parks - Leo Carrillo,10093,100930000,TAPO,Auto Generated and Verified,50,Unincorporated Los Angeles County,90265,3rd District,36348 Pacific Coast Hwy,SA,,34.04430796,-118.93752822,198,-118.93752822,34.04430796
-7742,Leo Carrillo Entrance Road,CA State Parks - Leo Carrillo,10094,100940000,TAPO,Auto Generated and Verified,18,Unincorporated Los Angeles County,90265,3rd District,35789 Pacific Coast Hwy,SA,,34.04683663,-118.93306537,199,-118.93306537,34.04683663
-7744,Liberty Canyon Fire Road,CA State Parks - Malibu Creek,10097,100970000,TH,Auto Generated and Verified,610,Unincorporated Los Angeles County,91302,3rd District,2521 Lad Virgenes Rd,ST,,34.10894653,-118.71417366,200,-118.71417366,34.10894653
-7745,Liberty Canyon Fire Road,CA State Parks - Malibu Creek,10097,100970000,TH,Auto Generated and Verified,733,Agoura Hills,91301,3rd District,27353 Park Vista Rd,ST,,34.12771455,-118.72398417,201,-118.72398417,34.12771455
-7746,Lifeguard Tower Access Road A,CA State Parks - Leo Carrillo,10099,100990000,TAPO,Auto Generated and Verified,51,Unincorporated Los Angeles County,90265,3rd District,36260 Pacific Coast Hwy,SA,,34.04448333,-118.93680471,202,-118.93680471,34.04448333
-7747,Lifeguard Tower Access Road B,CA State Parks - Leo Carrillo,10100,101000000,TAPO,Auto Generated and Verified,41,Unincorporated Los Angeles County,90265,3rd District,36160 Pacific Coast Hwy,SA,,34.04459742,-118.93595011,203,-118.93595011,34.04459742
-7748,Lofgren Trail,CA State Parks - Topanga,10101,101010000,TH,Auto Generated and Verified,1202,Unincorporated Los Angeles County,90290,3rd District,20800 Entrada Rd,SA,,34.09298097,-118.58889206,204,-118.58889206,34.09298097
-7749,Lookout Road,CA State Parks - Malibu Creek,10102,101020000,TAPO,Auto Generated and Verified,1054,Unincorporated Los Angeles County,91301,3rd District,1500 Lookout Dr,ST,,34.1002732,-118.7580079,205,-118.7580079,34.1002732
-7754,Los Leones Trail,CA State Parks - Topanga,10106,101060000,TAPO,Auto Generated and Verified,247,Los Angeles,90272,3rd District,575 Los Liones Dr,SA,,34.04712732,-118.55981949,206,-118.55981949,34.04712732
-7756,Lower Cheeseboro Canyon Trail,National Parks Service,20075,200750000,TH,Auto Generated and Verified,933,Unincorporated Los Angeles County,91301,3rd District,5568 Chesebro Rd,ST,,34.14962722,-118.73518773,207,-118.73518773,34.14962722
-7757,Lower Encina Trail,CA State Parks - Topanga,10108,101080000,TAPO,Auto Generated and Verified,851,Unincorporated Los Angeles County,90290,3rd District,21943 Entrada Rd,SA,,34.09452162,-118.60088719,208,-118.60088719,34.09452162
-7759,Lower Stunt High Trail,National Parks Service,20076,200760000,TH,Auto Generated and Verified,1546,Unincorporated Los Angeles County,91302,3rd District,1255 Stunt Rd,ST,,34.09074623,-118.65577061,209,-118.65577061,34.09074623
-7761,Malibou Lake Connector Trail,National Parks Service,20077,200770000,TAPO,Auto Generated and Verified,818,Unincorporated Los Angeles County,91301,3rd District,Waring Drive and Mullholland Hwy,SA,,34.1110731,-118.77717004,210,-118.77717004,34.1110731
-7762,Malibu Lake Vista Trail,CA State Parks - Malibu Creek,10109,101090000,TAPO,Auto Generated and Verified,850,Unincorporated Los Angeles County,91301,3rd District,28848 Lake Vista Dr,SA,,34.11208046,-118.75042768,211,-118.75042768,34.11208046
-7764,Malibu Springs Trail,National Parks Service,30009,300090002,TH,Auto Generated and Verified,415,Unincorporated Los Angeles County,90265,3rd District,35241 Mulholland Hwy,ST,,34.0837575,-118.9182729,212,-118.9182729,34.0837575
-7766,Marco Polo Trail,National Parks Service,20079,200790000,TH,Auto Generated and Verified,743,Unincorporated Los Angeles County,91301,3rd District,Paramount Ranch Drive and Cornell Road,SA,,34.11706246,-118.75631093,213,-118.75631093,34.11706246
-7767,Meadow Trail,National Parks Service,20080,200800000,TH,Auto Generated and Verified,1042,Unincorporated Los Angeles County,91302,3rd District,2139 Stunt Rd,ST,,34.10134052,-118.6576138,214,-118.6576138,34.10134052
-7768,Medea Creek - Racetrack Connector,National Parks Service,20081,200810000,TAPO,Auto Generated and Verified,809,Unincorporated Los Angeles County,91301,3rd District,29015 Mulholland Hwy,SA,,34.11303909,-118.7524793,215,-118.7524793,34.11303909
-7926,Backbone Trail, ,30012,100080000,TAPO,,1179,Unincorporated Los Angeles County,90290,3rd District,20801 Entrada Rd,SA,,34.09358071,-118.58822225,216,-118.58822225,34.09358071
-7927,Deer Valley Loop Trail,National Parks Service,20052,200520000,TH,Auto Generated and Verified,1003,Unincorporated Los Angeles County,90265,3rd District,,N,,34.05200023,-118.75851394,217,-118.75851394,34.05200023
-7928,Caballero Canyon Trail,,30016,300160001,TAPO,Access via Fire Road 28,991,Los Angeles,91356,3rd District,,ST,,34.14061477,-118.54184868,218,-118.54184868,34.14061477
-7929,Zuma Canyon Trail,National Parks Service,20134,,TH,From NPS,96,Malibu,90265,3rd District,End of Bonsall Drive,SA,,34.03171131,-118.81225024,219,-118.81225024,34.03171131
-7931,Crags Road,CA State Parks - Malibu Creek,10048,,TAPO,Auto Generated and Verified,1015,Unincorporated Los Angeles County,91302,3rd District,27637 Mulholland Hwy,ST,,34.10528844,-118.73170987,220,-118.73170987,34.10528844
-7932,Eagle Springs Fire Road,CA State Parks - Topanga,10058,,TAPO,Auto Generated and Verified,1125,Unincorporated Los Angeles County,90290,3rd District,20610 Hillside Dr,ST,,34.09972497,-118.58690706,221,-118.58690706,34.09972497
-7939,West Mandeville Fire Road, ,20145,201450000,TH,Added From hard copy maps and state parks data,1879,Los Angeles,90049,3rd District,17460 Mulholland Dr,SA,,34.12904371,-118.51352284,222,-118.51352284,34.12904371
-7940,Sullivan Fire Road,CA State Parks - Topanga,20144,201440000,TAPO,Added From hard copy maps and state parks data,1879,Los Angeles,90049,3rd District,17460 Mulholland Dr,SA,,34.12904371,-118.51352284,223,-118.51352284,34.12904371
-7941,Ann Skager Spur Trail
- Ann Skager Spur Trail,CA State Parks - Malibu Creek,30010,300100000,TAPO,Auto Generated and Verified,539,Unincorporated Los Angeles County,91302,3rd District,27347 Waycross Dr,SA,,34.0959552,-118.71705847,224,-118.71705847,34.0959552
-7942,Lower Bee Hive Trail,CA State Parks - Will Rogers,22,220000,TAPO,Auto Generated and Verified,426,Los Angeles,90272,3rd District,1666 Will Rogers State Park Rd,SA,,34.0543065,-118.51317308,225,-118.51317308,34.0543065
-7943,Backbone Trail - Betty Rogers,CA State Parks - Will Rogers,10005,100050000,TAPO,Auto Generated and Verified,667,Los Angeles,90272,3rd District,1666 Will Rogers State Park Rd,SA,,34.05852272,-118.51488429,226,-118.51488429,34.05852272
-7944,Backbone Trail - Bridge Bypass Equestrian Trail,CA State Parks - Malibu Creek,10006,100060000,TH,Auto Generated and Verified,463,Unincorporated Los Angeles County,91302,3rd District,26278 Piuma Rd,SA,,34.08180404,-118.70337732,227,-118.70337732,34.08180404
-7945,Backbone Trail - Inspiration Point Loop,CA State Parks - Will Rogers,10011,100110000,TAPO,Auto Generated and Verified,617,Los Angeles,90272,3rd District,1666 Will Rogers State Park Rd,SA,,34.05624678,-118.51443584,228,-118.51443584,34.05624678
-7946,Backbone Trail - Rogers Road,CA State Parks - Will Rogers,10019,100190000,TAPO,Auto Generated and Verified,708,Los Angeles,90272,3rd District,1666 Will Rogers State Park Rd,SA,,34.06065636,-118.51371252,229,-118.51371252,34.06065636
-7947,Backbone Trail - Temescal Ridge Fire Road, ,10022,100220000,TAPO,,1724,Los Angeles,91356,3rd District,3001 Reseda Blvd,ST,,34.12863336,-118.553766,230,-118.553766,34.12863336
-7948,Bay Tree Trail, ,10027,100270000,TAPO,,1724,Los Angeles,91356,3rd District,3001 Reseda Blvd,ST,,34.12863336,-118.553766,231,-118.553766,34.12863336
-7949,Yellow Hill Fire Trl Alternate,CA State Parks - Leo Carrillo,10181,101810000,TAPO,,23,Ventrua County,,,,ST,,34.04629397,-118.93519105,232,-118.93519105,34.04629397
-7950,Water Tank Road,CA State Parks - Leo Carrillo,10174,101760000,TAPO,,13,Unincorporated Los Angeles County,90265,3rd District,35907 Pacific Coast Hwy,SA,,34.04620493,-118.9337354,233,-118.9337354,34.04620493
-7951,Leo Carrillo Scenic Overlook Trail,CA State Parks - Leo Carrillo,10096,101760000,TH,Auto Generated and Verified,594,Unincorporated Los Angeles County,90265,3rd District,35907 Pacific Coast Hwy,SA,,34.05196861,-118.92809611,234,-118.92809611,34.05196861
-7952,Nicholas Flat ADA Trail,CA State Parks - Leo Carrillo,10184,101840000,TAPO,Added per Dale's request,1483,Unincorporated Los Angeles County,90265,3rd District,33700 Decker School Rd,ST,,34.07061305,-118.90648716,235,-118.90648716,34.07061305
-7953,Nicholas Flat Trail,CA State Parks - Leo Carrillo,10121,101210000,TH,Auto Generated and Verified,1414,Unincorporated Los Angeles County,90265,3rd District,33700 Decker School Rd,ST,,34.06557529,-118.90797957,236,-118.90797957,34.06557529
-7954,Nicholas Ridge Trail,CA State Parks - Leo Carrillo,10126,,TAPO,Added per Dale's request,1483,Unincorporated Los Angeles County,90265,3rd District,33700 Decker School Rd,ST,,34.07061305,-118.90648716,237,-118.90648716,34.07061305
-7955,Nicholas Ridge Motorway,CA State Parks - Leo Carrillo,10125,,TAPO,Added per Dale's request,1483,Unincorporated Los Angeles County,90265,3rd District,33700 Decker School Rd,ST,,34.07061305,-118.90648716,238,-118.90648716,34.07061305
-7956,Nicholas Flat Trail,CA State Parks - Leo Carrillo,10121,101210000,TH,Auto Generated and Verified,1422,Unincorporated Los Angeles County,90265,3rd District,33700 Decker School Rd,ST,,34.06626459,-118.90838132,239,-118.90838132,34.06626459
-7957,Nicholas Pond Trail,CA State Parks - Leo Carrillo,10122,,TAPO,Added per Dale's request,1483,Unincorporated Los Angeles County,90265,3rd District,33700 Decker School Rd,ST,,34.07061305,-118.90648716,240,-118.90648716,34.07061305
-7958,Nicholas Flat Trail,CA State Parks - Leo Carrillo,10121,101210000,TH,Auto Generated and Verified,1512,Unincorporated Los Angeles County,90265,3rd District,33700 Decker School Rd,ST,,34.07192658,-118.90716649,241,-118.90716649,34.07192658
-7959,Nicholas Ranch Road,CA State Parks - Leo Carrillo,10124,101240000,TAPO,Auto Generated and Verified,1483,Unincorporated Los Angeles County,90265,3rd District,33700 Decker School Rd,ST,,34.07061305,-118.90648716,242,-118.90648716,34.07061305
-7960,Nicholas Ranch House Road,CA State Parks - Leo Carrillo,10123,,TAPO,Added per Dale's request,1483,Unincorporated Los Angeles County,90265,3rd District,33700 Decker School Rd,ST,,34.07061305,-118.90648716,243,-118.90648716,34.07061305
-7963,Nicholas Meadow Trail,CA State Parks - Leo Carrillo,10182,300090000,TAPO,Added per Dale's request,1483,Unincorporated Los Angeles County,90265,3rd District,33700 Decker School Rd,ST,,34.07061305,-118.90648716,244,-118.90648716,34.07061305
-7964,Backbone Trail - Etz Meloy Motorway,National Parks Service,20008,200070012,TAPO,Auto Generated and Verified,1622,Unincorporated Los Angeles County,90265,3rd District,33286 Mulholland Hwy,ST,,34.09166241,-118.86713927,245,-118.86713927,34.09166241
-7965,Backbone Trail - Etz Meloy Motorway Overlook,National Parks Service,20141,200070012,TAPO,Auto Generated and Verified,1622,Unincorporated Los Angeles County,90265,3rd District,33286 Mulholland Hwy,ST,,34.09166241,-118.86713927,246,-118.86713927,34.09166241
-7966,Mulholland Highway,National Parks Service,20091,200070012,TAPO,Auto Generated and Verified,1622,Unincorporated Los Angeles County,90265,3rd District,33286 Mulholland Hwy,ST,,34.09166241,-118.86713927,247,-118.86713927,34.09166241
-7967,Clarke Ranch Road Connector,National Parks Service,20043,200420000,TH,Auto Generated and Verified,1391,Unincorporated Los Angeles County,90265,3rd District,1091 Encinal Canyon Rd,SA,,34.08577506,-118.86251021,248,-118.86251021,34.08577506
-7968,Clarke Ranch Road Connector,National Parks Service,20043,200070000,TH,Auto Generated and Verified,1398,Unincorporated Los Angeles County,90265,3rd District,1063 Encinal Canyon Rd,SA,,34.08519896,-118.86159778,249,-118.86159778,34.08519896
-7969,Backbone Trail - Zuma Ridge Trail,National Parks Service,20020,201370000,TAPO,Confirmed with NPS data points,1724,Unincorporated Los Angeles County,90265,3rd District,500 Encinal Canyon Rd,ST,,34.08683648,-118.83923919,250,-118.83923919,34.08683648
-7970,Pond Trail,National Parks Service,20101,201120000,TH,Confirmed with NPS data points,1709,Unincorporated Los Angeles County,90265,3rd District,31520 Mulholland Hwy,SA,,34.09706364,-118.81409729,251,-118.81409729,34.09706364
-7971,Overlook Trail,National Parks Service,20095,201120000,TH,Confirmed with NPS data points,1709,Unincorporated Los Angeles County,90265,3rd District,31520 Mulholland Hwy,SA,,34.09706364,-118.81409729,252,-118.81409729,34.09706364
-7972,Rocky Oaks - Unnamed,CA State Parks - Topanga,20110,100700000,TH,Confirmed with NPS data points,1709,Unincorporated Los Angeles County,90265,3rd District,31520 Mulholland Hwy,SA,,34.09706364,-118.81409729,253,-118.81409729,34.09706364
-7973,Rocky Oaks Loop - Pond Connector,National Parks Service,20111,201120000,TH,Confirmed with NPS data points,1709,Unincorporated Los Angeles County,90265,3rd District,31520 Mulholland Hwy,SA,,34.09706364,-118.81409729,254,-118.81409729,34.09706364
-7974,Zuma Canyon Connector Trail,National Parks Service,20133,201350000,TH,Confirmed with NPS data points,1323,Unincorporated Los Angeles County,90265,3rd District,2615 S Kanan Dume Rd,ST,,34.06138582,-118.80406238,255,-118.80406238,34.06138582
-7975,Canyon View Trail,National Parks Service,20033,,TH,From NPS,96,Malibu,90265,3rd District,End of Bonsall Drive,SA,,34.03171131,-118.81225024,256,-118.81225024,34.03171131
-7976,Scenic Trail (Zuma),National Parks Service,20116,,TH,From NPS,96,Malibu,90265,3rd District,End of Bonsall Drive,SA,,34.03171131,-118.81225024,257,-118.81225024,34.03171131
-7978,Edison Road,CA State Parks - Malibu Creek,20060,100140000,TH,Auto Generated and Verified,1992,Unincorporated Los Angeles County,90265,3rd District,Castro Peak Mtwy,SA,,34.08200797,-118.75840606,258,-118.75840606,34.08200797
-7979,Topanga Ridge Motorway,CA State Parks - Malibu Creek,20123,300020000,TH,Auto Generated and Verified,2374,Unincorporated Los Angeles County,90290,3rd District,24839 Saddle Peak Rd,SA,,34.08127044,-118.64508228,259,-118.64508228,34.08127044
-7980,Peter Strauss - Triunfo Loop,National Parks Service,20142,201000000,TAPO,Auto Generated and Verified,760,Unincorporated Los Angeles County,91301,3rd District,,SA,,34.11235484,-118.77907598,260,-118.77907598,34.11235484
-7981,Paramount Ridge Trail,National Parks Service,20098,200700000,TAPO,Auto Generated and Verified,809,Unincorporated Los Angeles County,91301,3rd District,3619 Cornell Rd,ST,,34.12530143,-118.7499441,261,-118.7499441,34.12530143
-7982,Bwana Trail, ,20029,200700002,TAPO,Added From NPS ParkEntrancePts.shp,764,Unincorporated Los Angeles County,91301,3rd District,3450 Cornell Rd,ST,,34.12352858,-118.75025663,262,-118.75025663,34.12352858
-7983,Ebb Tide Trail, ,20057,200700002,TAPO,Added From NPS ParkEntrancePts.shp,764,Unincorporated Los Angeles County,91301,3rd District,3450 Cornell Rd,ST,,34.12352858,-118.75025663,263,-118.75025663,34.12352858
-7984,Racetrack Road,National Parks Service,20103,201300000,TAPO,Auto Generated and Verified,738,Unincorporated Los Angeles County,91301,3rd District,Paramount Ranch Rd,SA,,34.11550054,-118.75525222,264,-118.75525222,34.11550054
-7985,Medicine Woman Connector,National Parks Service,20083,201300000,TAPO,Auto Generated and Verified,738,Unincorporated Los Angeles County,91301,3rd District,Paramount Ranch Rd,SA,,34.11550054,-118.75525222,265,-118.75525222,34.11550054
-7986,Coyote - Hacienda Connector,National Parks Service,20047,200480000,TAPO,Auto Generated and Verified,756,Unincorporated Los Angeles County,91301,3rd District,Paramount Ranch Rd,SA,,34.11579905,-118.75716839,266,-118.75716839,34.11579905
-7987,Coyote Picnic Table Spur,National Parks Service,20049,200480000,TAPO,Auto Generated and Verified,756,Unincorporated Los Angeles County,91301,3rd District,Paramount Ranch Rd,SA,,34.11579905,-118.75716839,267,-118.75716839,34.11579905
-7988,Racetrack Turn 7,National Parks Service,20104,200480000,TAPO,Auto Generated and Verified,756,Unincorporated Los Angeles County,91301,3rd District,Paramount Ranch Rd,SA,,34.11579905,-118.75716839,268,-118.75716839,34.11579905
-7989,Bwana Connector,National Parks Service,20028,200700000,TAPO,Auto Generated and Verified,809,Unincorporated Los Angeles County,91301,3rd District,3619 Cornell Rd,ST,,34.12530143,-118.7499441,269,-118.7499441,34.12530143
-7990,Palo Comado Connector,National Parks Service,20096,200020000,TAPO,,1011,Unincorporated Los Angeles County,91301,3rd District,Cheseboro Canyon Rd and Cheseboro Road,SA,,34.15655231,-118.73083841,270,-118.73083841,34.15655231
-7991,Canyon View Trail (Cheeseboro),National Parks Service,20034,200020000,TH,Auto Generated and Verified,1011,Unincorporated Los Angeles County,91301,3rd District,Cheseboro Canyon Rd and Cheseboro Road,SA,,34.15655231,-118.73083841,271,-118.73083841,34.15655231
-7992,Cheeseboro Ridge Trail,National Parks Service,20039,200020000,TH,Auto Generated and Verified,1011,Unincorporated Los Angeles County,91301,3rd District,Cheseboro Canyon Rd and Cheseboro Road,SA,,34.15655231,-118.73083841,272,-118.73083841,34.15655231
-7993,Modelo Trail Connector,National Parks Service,20086,200020000,TH,Auto Generated and Verified,1011,Unincorporated Los Angeles County,91301,3rd District,Cheseboro Canyon Rd and Cheseboro Road,SA,,34.15655231,-118.73083841,273,-118.73083841,34.15655231
-7994,Deer Leg Trail,CA State Parks - Malibu Creek,10055,101090000,TAPO,Auto Generated and Verified,850,Unincorporated Los Angeles County,91301,3rd District,28848 Lake Vista Dr,SA,,34.11208046,-118.75042768,274,-118.75042768,34.11208046
-7995,Deer Leg Connector Trail,CA State Parks - Malibu Creek,10054,101090000,TAPO,Auto Generated and Verified,850,Unincorporated Los Angeles County,91301,3rd District,28848 Lake Vista Dr,SA,,34.11208046,-118.75042768,275,-118.75042768,34.11208046
-7996,Cage Creek Trail,CA State Parks - Malibu Creek,10037,101090000,TAPO,Auto Generated and Verified,850,Unincorporated Los Angeles County,91301,3rd District,28848 Lake Vista Dr,SA,,34.11208046,-118.75042768,276,-118.75042768,34.11208046
-7997,Lookout Trail,CA State Parks - Malibu Creek,10104,101090000,TAPO,Auto Generated and Verified,850,Unincorporated Los Angeles County,91301,3rd District,28848 Lake Vista Dr,SA,,34.11208046,-118.75042768,277,-118.75042768,34.11208046
-7998,Crags Road Connector, ,10050,100440000,TAPO,,549,Unincorporated Los Angeles County,91302,3rd District,27359 Waycross Dr,SA,,34.0967567,-118.71623806,278,-118.71623806,34.0967567
-7999,Crags Trail, ,10051,100440000,TAPO,,549,Unincorporated Los Angeles County,91302,3rd District,27359 Waycross Dr,SA,,34.0967567,-118.71623806,279,-118.71623806,34.0967567
-8000,Crags Vista Point Road, ,10052,100440000,TAPO,,549,Unincorporated Los Angeles County,91302,3rd District,27359 Waycross Dr,SA,,34.0967567,-118.71623806,280,-118.71623806,34.0967567
-8001,High Road, ,10078,100440000,TAPO,,549,Unincorporated Los Angeles County,91302,3rd District,27359 Waycross Dr,SA,,34.0967567,-118.71623806,281,-118.71623806,34.0967567
-8002,Rock Pool Trail, ,10147,100440000,TAPO,,549,Unincorporated Los Angeles County,91302,3rd District,27359 Waycross Dr,SA,,34.0967567,-118.71623806,282,-118.71623806,34.0967567
-8003,Century Dam Route, ,10041,100440000,TAPO,,549,Unincorporated Los Angeles County,91302,3rd District,27359 Waycross Dr,SA,,34.0967567,-118.71623806,283,-118.71623806,34.0967567
-8004,Century Lake Road, ,10042,100440000,TAPO,,549,Unincorporated Los Angeles County,91302,3rd District,27359 Waycross Dr,SA,,34.0967567,-118.71623806,284,-118.71623806,34.0967567
-8005,Century Lake Trail, ,10043,100440000,TAPO,,549,Unincorporated Los Angeles County,91302,3rd District,27359 Waycross Dr,SA,,34.0967567,-118.71623806,285,-118.71623806,34.0967567
-8006,Forest Trail, ,10067,100440000,TAPO,,549,Unincorporated Los Angeles County,91302,3rd District,27359 Waycross Dr,SA,,34.0967567,-118.71623806,286,-118.71623806,34.0967567
-8007,Gorge Route, ,10073,100440000,TAPO,,549,Unincorporated Los Angeles County,91302,3rd District,27359 Waycross Dr,SA,,34.0967567,-118.71623806,287,-118.71623806,34.0967567
-8008,Campfire Center Trail, ,10039,100440000,TAPO,,549,Unincorporated Los Angeles County,91302,3rd District,27359 Waycross Dr,SA,,34.0967567,-118.71623806,288,-118.71623806,34.0967567
-8009,Group Camp Road, ,10075,100440000,TAPO,,549,Unincorporated Los Angeles County,91302,3rd District,27359 Waycross Dr,SA,,34.0967567,-118.71623806,289,-118.71623806,34.0967567
-8010,Group Camp Service Road, ,10076,100440000,TAPO,,549,Unincorporated Los Angeles County,91302,3rd District,27359 Waycross Dr,SA,,34.0967567,-118.71623806,290,-118.71623806,34.0967567
-8011,Big Rock Lateral,National Parks Service,20023,201270000,TAPO,,1555,Unincorporated Los Angeles County,90290,3rd District,3200 Tuna Canyon Rd,ST,,34.05968704,-118.61654529,291,-118.61654529,34.05968704
-8012,Big Rock Motorway,National Parks Service,20024,201270000,TAPO,,1555,Unincorporated Los Angeles County,90290,3rd District,3200 Tuna Canyon Rd,ST,,34.05968704,-118.61654529,292,-118.61654529,34.05968704
-8013,Budwood Motorway,National Parks Service,20026,201270000,TAPO,,1555,Unincorporated Los Angeles County,90290,3rd District,3200 Tuna Canyon Rd,ST,,34.05968704,-118.61654529,293,-118.61654529,34.05968704
-8016,Nature Trail - Topanga, ,10120,101770000,TAPO,,1184,Unincorporated Los Angeles County,90290,3rd District,Entrada Rd,SA,,34.09340166,-118.587802,294,-118.587802,34.09340166
-8017,Visitor Center Road, ,10185,101770000,TAPO,,1184,Unincorporated Los Angeles County,90290,3rd District,Entrada Rd,SA,,34.09340166,-118.587802,295,-118.587802,34.09340166
-8018,Ed Edelman North Short Loop,National Parks Service,20059,200580000,TAPO,,1300,Unincorporated Los Angeles County,90290,3rd District,2747 N Topanga Canyon Blvd,SA,,34.12736966,-118.59884359,296,-118.59884359,34.12736966
-8019,Fire Road Thirty,National Parks Service - Topanga,10066,200620000,TAPO,,1595,Los Angeles,91356,3rd District,3001 Reseda Blvd,ST,,34.13130356,-118.55316856,297,-118.55316856,34.13130356
-8020,Garapito Trail,National Parks Service - Topanga,10068,200620000,TAPO,,1595,Los Angeles,91356,3rd District,3001 Reseda Blvd,ST,,34.13130356,-118.55316856,298,-118.55316856,34.13130356
-8021,Farmers Ridge Trail,CA State Parks - Topanga,10065,100640000,TAPO,,1560,Los Angeles,90272,3rd District,18664 Mulholland Dr,ST,,34.12756597,-118.54204606,299,-118.54204606,34.12756597
-8023,Backbone Trail - Eagle Rock Fire Road, ,10057,101770000,TAPO,,1184,Unincorporated Los Angeles County,90290,3rd District,Entrada Rd,SA,,34.09340166,-118.587802,300,-118.587802,34.09340166
-8024,Eagle Rock Connector, ,10186,101770000,TAPO,,1184,Unincorporated Los Angeles County,90290,3rd District,Entrada Rd,SA,,34.09340166,-118.587802,301,-118.587802,34.09340166
-8025,Temescal Ridge Fire Road,CA State Parks - Topanga,30011,100640000,TH,Auto Generated and Verified,1560,Los Angeles,90272,3rd District,18664 Mulholland Dr,ST,,34.12756597,-118.54204606,302,-118.54204606,34.12756597
-8027,Betty Rogers Connector Trail,CA State Parks - Will Rogers,10031,101340000,TAPO,Auto Generated and Verified,430,Los Angeles,90272,3rd District,14400 Villa Woods Pl,SA,,34.05453293,-118.51178947,303,-118.51178947,34.05453293
-8028,Bone Canyon Road,CA State Parks - Will Rogers,10033,101340000,TAPO,Auto Generated and Verified,430,Los Angeles,90272,3rd District,14400 Villa Woods Pl,SA,,34.05453293,-118.51178947,304,-118.51178947,34.05453293
-8029,Bone Canyon Trail,CA State Parks - Will Rogers,10034,101340000,TAPO,Auto Generated and Verified,430,Los Angeles,90272,3rd District,14400 Villa Woods Pl,SA,,34.05453293,-118.51178947,305,-118.51178947,34.05453293
-8030,Bridal Path,CA State Parks - Will Rogers,10035,101340000,TAPO,Auto Generated and Verified,430,Los Angeles,90272,3rd District,14400 Villa Woods Pl,SA,,34.05453293,-118.51178947,306,-118.51178947,34.05453293
-8031,Inspiration Point Road,CA State Parks - Will Rogers,10086,101340000,TAPO,Auto Generated and Verified,430,Los Angeles,90272,3rd District,14400 Villa Woods Pl,SA,,34.05453293,-118.51178947,307,-118.51178947,34.05453293
-8032,Stables Road,CA State Parks - Will Rogers,10155,101340000,TAPO,Auto Generated and Verified,430,Los Angeles,90272,3rd District,14400 Villa Woods Pl,SA,,34.05453293,-118.51178947,308,-118.51178947,34.05453293
-8033,Rivas Overlook Trail,CA State Parks - Will Rogers,10144,101340000,TAPO,Auto Generated and Verified,430,Los Angeles,90272,3rd District,14400 Villa Woods Pl,SA,,34.05453293,-118.51178947,309,-118.51178947,34.05453293
-8034,Rivas Overlook Trail ADA Section,CA State Parks - Will Rogers,10145,101340000,TAPO,Auto Generated and Verified,430,Los Angeles,90272,3rd District,14400 Villa Woods Pl,SA,,34.05453293,-118.51178947,310,-118.51178947,34.05453293
-8035,Sarah Point Road,CA State Parks - Will Rogers,10151,101340000,TAPO,Auto Generated and Verified,430,Los Angeles,90272,3rd District,14400 Villa Woods Pl,SA,,34.05453293,-118.51178947,311,-118.51178947,34.05453293
-8036,Service Road,CA State Parks - Will Rogers,10152,101340000,TAPO,Auto Generated and Verified,430,Los Angeles,90272,3rd District,14400 Villa Woods Pl,SA,,34.05453293,-118.51178947,312,-118.51178947,34.05453293
-8038,Beehive Connector Trail,CA State Parks - Topanga,10028,300070000,TAPO,Auto Generated and Verified,415,Los Angeles,90272,3rd District,1666 Will Rogers State Park Rd,SA,,34.0544161,-118.50962649,313,-118.50962649,34.0544161
-8039,Beehive Trail,CA State Parks - Topanga,10029,300070000,TAPO,Auto Generated and Verified,415,Los Angeles,90272,3rd District,1666 Will Rogers State Park Rd,SA,,34.0544161,-118.50962649,314,-118.50962649,34.0544161
-8040,Joesepho Barn Road,CA State Parks - Topanga,10087,300070000,TAPO,Auto Generated and Verified,415,Los Angeles,90272,3rd District,1666 Will Rogers State Park Rd,SA,,34.0544161,-118.50962649,315,-118.50962649,34.0544161
-8041,Joesepho Spur Trail,CA State Parks - Topanga,10088,300070000,TAPO,Auto Generated and Verified,415,Los Angeles,90272,3rd District,1666 Will Rogers State Park Rd,SA,,34.0544161,-118.50962649,316,-118.50962649,34.0544161
-8042,Murphy Ranch Road Trail,CA State Parks - Topanga,20138,300070000,TAPO,Auto Generated and Verified,415,Los Angeles,90272,3rd District,1666 Will Rogers State Park Rd,SA,,34.0544161,-118.50962649,317,-118.50962649,34.0544161
-8043,Piuma Connector Trail, ,10135,100180000,TAPO,,485,Unincorporated Los Angeles County,91302,3rd District,897 Las Virgenes Rd,SA,,34.08316434,-118.70550111,318,-118.70550111,34.08316434
-8044,Puerco Mtwy,CA State Parks - Malibu Creek,10140,101120000,TAPO,Auto Generated and Verified,748,Unincorporated Los Angeles County,91302,3rd District,Mesa Peak Mtwy,ST,,34.07825482,-118.71041612,319,-118.71041612,34.07825482
-8046,Musch Meadows Trail,CA State Parks - Topanga,10117,101170000,TAPO,Auto Generated and Verified,1137,Unincorporated Los Angeles County,90290,3rd District,Topanga Canyon Boulevard and Oakwood Drive,SA,,34.11072135,-118.58875865,320,-118.58875865,34.11072135
+MONITOR_ID,LOCATION,LAT,LON,NOX_LEVELS,OZONE_LEVELS,SOX_LEVELS,TOTAL_PPM
+7769,1st St,34.11305718,-118.7515267,,1,34.11305718,35.11305718
+8047,2nd st,34.05968704,-118.6165453,13.5,2.3,34.05968704,49.85968704
+7770,3rd st,34.11736375,-118.7568393,27.2,3.6,34.11736375,64.91736375
+8048,4th st,34.07934551,-118.5197236,12.5,4.9,34.07934551,51.47934551
+7773,5th st,34.07905997,-118.7555631,35.3,6.2,34.07905997,75.57905997
+8049,6th St,34.04716257,-118.9330943,4.2,7.5,34.04716257,45.74716257
+8050,7th St,34.08599879,-118.6600881,34.2,8.8,34.08599879,77.08599879
+7774,8th St,34.15655231,-118.7308384,12.4,10.1,34.15655231,56.65655231
+8051,9th St,34.09336192,-118.5873197,32.4,11.4,34.09336192,77.89336192
+7775,10th St,34.08304412,-118.6848764,24.52222222,12.7,34.08304412,71.30526634
+7758,11th St,34.09492784,-118.6482444,25.05555556,14,34.09492784,73.1504834
+7776,12th St,34.15762013,-118.7005693,25.58888889,15.3,34.15762013,75.04650902
+7630,13th St,34.09205297,-118.5924231,26.12222222,16.6,34.09205297,76.81427519
+7781,14th St,34.10392797,-118.5890281,26.65555556,17.9,34.10392797,78.65948353
+7782,15th St,34.09359514,-118.5874579,27.18888889,19.2,34.09359514,80.48248403
+7632,16th St,34.15655231,-118.7308384,27.72222222,20.5,34.15655231,82.37877453
+7783,17th St,34.09356836,-118.5873627,28.25555556,21.8,34.09356836,84.14912392
+7633,18th St,34.08838793,-118.5905601,28.78888889,23.1,34.08838793,85.97727682
+7924,19th St,34.07613002,-118.8159401,29.32222222,24.4,34.07613002,87.79835224
+7784,20th St,34.07766185,-118.7884868,29.85555556,25.7,34.07766185,89.63321741
+7788,21st St,34.04683663,-118.9330654,30.38888889,27,34.04683663,91.43572552
+7789,22nd St,34.07061305,-118.9064872,30.92222222,28.3,34.07061305,93.29283527
+7790,23rd St,34.10349595,-118.7138346,31.45555556,29.6,34.10349595,95.15905151
+7791,24th St,34.03448596,-118.8121904,31.98888889,30.9,34.03448596,96.92337485
+7794,25th St,34.0959552,-118.7170585,32.52222222,32.2,34.0959552,98.81817742
+7799,26th St,34.11300414,-118.7795174,33.05555556,33.5,34.11300414,100.6685597
+7801,27th St,34.10614389,-118.7322873,33.58888889,34.8,34.10614389,102.4950328
+7802,28th St,34.05460117,-118.5107607,34.12222222,36.1,34.05460117,104.2768234
+7804,29th St,34.05441893,-118.8798419,34.65555556,37.4,34.05441893,106.1099745
+7805,30th St,34.06107711,-118.8807897,35.18888889,38.7,34.06107711,107.949966
+7808,31st St,34.03867392,-118.7940162,35.72222222,40,34.03867392,109.7608961
+7810,32nd St,34.05461208,-118.5132108,36.25555556,41.3,34.05461208,111.6101676
+7811,33rd St,34.1042316,-118.6282994,36.78888889,42.6,34.1042316,113.4931205
+7812,34th St,34.10937642,-118.6411459,37.32222222,43.9,34.10937642,115.3315986
+7813,35th St,34.13047896,-118.5529978,37.85555556,45.2,34.13047896,117.1860345
+7814,36th St,34.03400787,-118.8180965,38.38888889,46.5,34.03400787,118.9228968
+7815,37th St,34.0390797,-118.7499121,38.92222222,47.8,34.0390797,120.7613019
+7818,38th St,34.09706364,-118.8140973,39.45555556,49.1,34.09706364,122.6526192
+7819,39th St,34.0544161,-118.5096265,39.98888889,50.4,34.0544161,124.443305
+7820,40th St,34.13276493,-118.5913369,40.52222222,51.7,34.13276493,126.3549872
+7823,41st St,34.16761713,-118.7030497,41.05555556,53,34.16761713,128.2231727
+7824,42nd St,34.04915457,-118.7541408,41.58888889,54.3,34.04915457,129.9380435
+7825,43rd St,34.03219919,-118.5287953,42.12222222,55.6,34.03219919,131.7544214
+7826,44th St,34.03698547,-118.5391688,42.65555556,56.9,34.03698547,133.592541
+7827,45th St,34.04572343,-118.9343667,43.18888889,58.2,34.04572343,135.4346123
+7829,46th St,34.08108023,-118.5162992,43.72222222,59.5,34.08108023,137.3033025
+7830,47th St,34.12377639,-118.5880561,44.25555556,60.8,34.12377639,139.1793319
+7832,48th St,34.13276493,-118.5913369,44.78888889,62.1,34.13276493,141.0216538
+7834,49th St,34.08269423,-118.7063708,45.32222222,63.4,34.08269423,142.8049165
+7836,50th St,34.05836011,-118.8792061,45.85555556,64.7,34.05836011,144.6139157
+7838,51st St,34.11072135,-118.5887587,46.38888889,66,34.11072135,146.4996102
+7839,52nd St,34.0398352,-118.5819423,46.92222222,67.3,34.0398352,148.2620574
+7841,53rd St,34.06268162,-118.8424071,47.45555556,68.6,34.06268162,150.1182372
+7842,54th St,34.08421021,-118.8470213,47.98888889,69.9,34.08421021,151.9730991
+7844,55th St,34.05968704,-118.6165453,48.52222222,71.2,34.05968704,153.7819093
+7845,56th St,34.09300197,-118.5972701,49.05555556,72.5,34.09300197,155.6485575
+7846,57th St,34.12139753,-118.5429547,49.58888889,73.8,34.12139753,157.5102864
+7847,58th St,34.09084031,-118.657153,50.12222222,75.1,34.09084031,159.3130625
+7849,59th St,34.09200014,-118.5889461,50.65555556,76.4,34.09200014,161.1475557
+7850,60th St,34.11550054,-118.7552522,51.18888889,77.7,34.11550054,163.0043894
+7851,61st St,34.11533303,-118.7563361,51.72222222,79,34.11533303,164.8375553
+7852,62nd St,34.05659278,-118.512304,52.25555556,80.3,34.05659278,166.6121483
+7853,63rd St,34.05669021,-118.5127861,52.78888889,81.6,34.05669021,168.4455791
+7854,64th St,34.05461471,-118.5133518,53.32222222,82.9,34.05461471,170.2768369
+7855,65th St,34.04683663,-118.9330654,53.85555556,84.2,34.04683663,172.1023922
+7858,66th St,34.11307697,-118.7511271,54.38888889,85.5,34.11307697,174.0019659
+7859,67th St,34.04629397,-118.9351911,54.92222222,86.8,34.04629397,175.7685162
+7861,68th St,34.10017112,-118.6539744,55.45555556,88.1,34.10017112,177.6557267
+7863,69th St,34.06138582,-118.8040624,55.98888889,89.4,34.06138582,179.4502747
+7864,70th St,34.03415266,-118.8122562,56.52222222,90.7,34.03415266,181.2563749
+7865,71st St,34.03400787,-118.8180965,57.05555556,92,34.03400787,183.0895634
+7867,72nd St,34.03494817,-118.7445097,57.58888889,93.3,34.03494817,184.9238371
+7868,73rd St,34.07061305,-118.9064872,58.12222222,94.6,34.07061305,186.7928353
+7870,74th St,34.07994189,-118.7038555,58.65555556,95.9,34.07994189,188.6354974
+7876,75th St,34.12904371,-118.5135228,59.18888889,97.2,34.12904371,190.5179326
+7879,76th St,34.09715876,-118.7487444,59.72222222,98.5,34.09715876,192.319381
+7880,77th St,34.0315031,-118.6818563,60.25555556,99.8,34.0315031,194.0870587
+7884,78th St,34.08316434,-118.7055011,60.78888889,101.1,34.08316434,195.9720532
+7885,79th St,34.04620493,-118.9337354,61.32222222,102.4,34.04620493,197.7684272
+7886,80th St,34.05453293,-118.5117895,61.85555556,103.7,34.05453293,199.6100885
+7887,81st St,34.09675616,-118.7163298,62.38888889,105,34.09675616,201.485645
+7888,82nd St,34.09340166,-118.587802,62.92222222,106.3,34.09340166,203.3156239
+7889,83rd St,34.05316267,-118.5285875,63.45555556,107.6,34.05316267,205.1087182
+7890,84th St,34.12863336,-118.553766,63.98888889,108.9,34.12863336,207.0175222
+7891,85th St,34.09340166,-118.587802,64.52222222,110.2,34.09340166,208.8156239
+7892,86th St,34.0967567,-118.7162381,65.05555556,111.5,34.0967567,210.6523123
+7893,87th St,34.0967567,-118.7162381,65.58888889,112.8,34.0967567,212.4856456
+7894,88th St,34.0967567,-118.7162381,66.12222222,114.1,34.0967567,214.3189789
+7895,89th St,34.12771455,-118.7239842,66.65555556,115.4,34.12771455,216.1832701
+7896,90th St,34.12771455,-118.7239842,67.18888889,116.7,34.12771455,218.0166034
+7897,91st St,34.0967567,-118.7162381,67.72222222,118,34.0967567,219.8189789
+7898,92nd St,34.09715876,-118.7487444,68.25555556,119.3,34.09715876,221.6527143
+7899,93rd St,34.0820577,-118.7043273,68.78888889,120.6,34.0820577,223.4709466
+7900,94th St,34.0959552,-118.7170585,69.32222222,121.9,34.0959552,225.3181774
+7901,95th St,34.0959552,-118.7170585,69.85555556,123.2,34.0959552,227.1515108
+7902,96th St,34.0386948,-118.5816376,70.38888889,124.5,34.0386948,228.9275837
+7903,97th St,34.05622642,-118.5129793,70.92222222,125.8,34.05622642,230.7784486
+7905,98th St,34.03415825,-118.8003575,71.45555556,127.1,34.03415825,232.5897138
+7906,99th St,34.09359514,-118.5874579,71.98888889,128.4,34.09359514,234.482484
+7907,100th St,34.08509415,-118.8614847,72.52222222,129.7,34.08509415,236.3073164
+7908,101st St,34.08204765,-118.6441125,73.05555556,131,34.08204765,238.1376032
+7909,102nd St,34.08384526,-118.6359157,73.58888889,132.3,34.08384526,239.9727341
+7910,103rd St,34.08384526,-118.6359157,74.12222222,133.6,34.08384526,241.8060675
+7911,104th St,34.09304197,-118.6092071,74.65555556,134.9,34.09304197,243.6485975
+7912,105th St,34.07790737,-118.7939165,75.18888889,136.2,34.07790737,245.4667963
+7913,106th St,34.0543065,-118.5131731,75.72222222,137.5,34.0543065,247.2765287
+7914,107th St,34.08200797,-118.7584061,76.25555556,138.8,34.08200797,249.1375635
+7915,108th St,34.07613002,-118.8159401,76.78888889,140.1,34.07613002,250.9650189
+7916,109th St,34.07790737,-118.7939165,77.32222222,141.4,34.07790737,252.8001296
+7917,110th St,34.09304197,-118.6092071,77.85555556,142.7,34.09304197,254.6485975
+7918,111th St,34.0945216,-118.6008872,78.38888889,144,34.0945216,256.4834105
+7919,112th St,34.08180404,-118.7033773,78.92222222,145.3,34.08180404,258.3040263
+7920,113th St,34.08127044,-118.6450823,79.45555556,146.6,34.08127044,260.136826
+7921,114th St,34.08127044,-118.6450823,79.98888889,147.9,34.08127044,261.9701593
+7922,115th St,34.08204765,-118.6441125,80.52222222,149.2,34.08204765,263.8042699
+7923,116th St,34.08200797,-118.7584061,81.05555556,150.5,34.08200797,265.6375635
+7634,117th St,34.09632877,-118.7143844,81.58888889,151.8,34.09632877,267.4852177
+7635,118th St,34.08919965,-118.8908376,82.12222222,153.1,34.08919965,269.3114219
+7636,119th St,34.08629292,-118.8909611,82.65555556,154.4,34.08629292,271.1418485
+7637,120th St,34.08657347,-118.890162,83.18888889,155.7,34.08657347,272.9754624
+7638,121st St,34.07871162,-118.8180468,83.72222222,157,34.07871162,274.8009338
+7639,122nd St,34.08509415,-118.8614847,84.25555556,158.3,34.08509415,276.6406497
+7642,123rd St,34.08204765,-118.6441125,84.78888889,159.6,34.08204765,278.4709365
+7643,124th St,34.08384526,-118.6359157,85.32222222,160.9,34.08384526,280.3060675
+7644,125th St,34.08384526,-118.6359157,85.85555556,162.2,34.08384526,282.1394008
+7645,126th St,34.09304197,-118.6092071,86.38888889,163.5,34.09304197,283.9819309
+7646,127th St,34.07790737,-118.7939165,86.92222222,164.8,34.07790737,285.8001296
+7647,128th St,34.0543065,-118.5131731,87.45555556,166.1,34.0543065,287.6098621
+7648,129th St,34.08200797,-118.7584061,87.98888889,167.4,34.08200797,289.4708969
+7649,130th St,34.09166241,-118.8671393,88.52222222,168.7,34.09166241,291.3138846
+7650,131st St,34.07613002,-118.8159401,89.05555556,170,34.07613002,293.1316856
+7651,132nd St,34.07790737,-118.7939165,89.58888889,171.3,34.07790737,294.9667963
+7652,133rd St,34.09304197,-118.6092071,90.12222222,172.6,34.09304197,296.8152642
+7653,134th St,34.0945216,-118.6008872,90.65555556,173.9,34.0945216,298.6500772
+7654,135th St,34.08018216,-118.7042485,91.18888889,175.2,34.08018216,300.469071
+7656,136th St,34.08180404,-118.7033773,91.72222222,176.5,34.08180404,302.3040263
+7658,137th St,34.08127044,-118.6450823,92.25555556,177.8,34.08127044,304.136826
+7659,138th St,34.08127044,-118.6450823,92.78888889,179.1,34.08127044,305.9701593
+7660,139th St,34.08204765,-118.6441125,93.32222222,180.4,34.08204765,307.8042699
+7661,140th St,34.08509415,-118.8614847,93.85555556,181.7,34.08509415,309.6406497
+7664,141st St,34.08200797,-118.7584061,94.38888889,183,34.08200797,311.4708969
+7665,142nd St,34.07613002,-118.8159401,94.92222222,184.3,34.07613002,313.2983522
+7666,143rd St,34.11996225,-118.7616138,95.45555556,185.6,34.11996225,315.1755178
+7667,144th St,34.05453782,-118.5115503,95.98888889,186.9,34.05453782,316.9434267
+7668,145th St,34.10863802,-118.4171186,96.52222222,188.2,34.10863802,318.8308602
+7671,146th St,34.05805072,-118.8795379,97.05555556,189.5,34.05805072,320.6136063
+7673,147th St,34.09244337,-118.6798764,97.58888889,190.8,34.09244337,322.4813323
+7675,148th St,34.09530499,-118.6495382,98.12222222,192.1,34.09530499,324.3175272
+7677,149th St,34.00241601,-118.8050999,98.65555556,193.4,34.00241601,326.0579716
+7678,150th St,34.03811072,-118.5558192,99.18888889,194.7,34.03811072,327.9269996
+7679,151st St,34.00217237,-118.8083626,99.72222222,196,34.00217237,329.7243946
+7680,152nd St,34.04427179,-118.9381086,100.2555556,197.3,34.04427179,331.5998273
+7682,153rd St,34.08200797,-118.7584061,100.7888889,198.6,34.08200797,333.4708969
+7684,154th St,34.05562738,-118.8802745,101.3222222,199.9,34.05562738,335.2778496
+7685,155th St,34.05441893,-118.8798419,101.8555556,201.2,34.05441893,337.1099745
+7686,156th St,34.05836011,-118.8792061,102.3888889,202.5,34.05836011,338.947249
+7687,157th St,34.15655231,-118.7308384,102.9222222,203.8,34.15655231,340.8787745
+7688,158th St,34.03376859,-118.8391992,103.4555556,205.1,34.03376859,342.5893241
+7689,159th St,34.0763032,-118.5462004,103.9888889,206.4,34.0763032,344.4651921
+7690,160th St,34.10528844,-118.7317099,104.5222222,207.7,34.10528844,346.3275107
+7691,161st St,34.08561311,-118.862771,105.0555556,209,34.08561311,348.1411687
+7692,162nd St,34.09904147,-118.65767,105.5888889,210.3,34.09904147,349.9879304
+7693,163rd St,34.11579905,-118.7571684,106.1222222,211.6,34.11579905,351.8380213
+7696,164th St,34.09632877,-118.7143844,106.6555556,212.9,34.09632877,353.6518843
+7697,165th St,34.10244193,-118.7544612,107.1888889,214.2,34.10244193,355.4913308
+7698,166th St,34.10017112,-118.6539744,107.7222222,215.5,34.10017112,357.3223933
+7699,167th St,34.10633431,-118.4152909,108.2555556,216.8,34.10633431,359.1618899
+7700,168th St,34.1088751,-118.4154816,108.7888889,218.1,34.1088751,360.997764
+7701,169th St,34.0945216,-118.6008872,109.3222222,219.4,34.0945216,362.8167438
+7702,170th St,34.08269423,-118.7063708,109.8555556,220.7,34.08269423,364.6382498
+7703,171st St,34.08350828,-118.7049922,110.3888889,222,34.08350828,366.4723972
+7705,172nd St,34.05622044,-118.7984174,110.9222222,223.3,34.05622044,368.2784427
+7708,173rd St,34.05398272,-118.8778504,111.4555556,224.6,34.05398272,370.1095383
+7710,174th St,34.09336192,-118.5873197,111.9888889,225.9,34.09336192,371.9822508
+7712,175th St,34.12736966,-118.5988436,112.5222222,227.2,34.12736966,373.8495919
+7714,176th St,34.0945216,-118.6008872,113.0555556,228.5,34.0945216,375.6500772
+7715,177th St,34.12756597,-118.5420461,113.5888889,229.8,34.12756597,377.5164549
+7716,178th St,34.13130356,-118.5531686,114.1222222,231.1,34.13130356,379.3535258
+7717,179th St,34.09706364,-118.8140973,114.6555556,232.4,34.09706364,381.1526192
+7718,180th St,34.09452162,-118.6008872,115.1888889,233.7,34.09452162,382.9834105
+7719,181st St,34.09478028,-118.6007576,115.7222222,235,34.09478028,384.8170025
+7720,182nd St,34.10349595,-118.7138346,116.2555556,236.3,34.10349595,386.6590515
+7721,183rd St,34.11664663,-118.7576687,116.7888889,237.6,34.11664663,388.5055355
+7723,184th St,34.11156355,-118.4151829,117.3222222,238.9,34.11156355,390.3337858
+7724,185th St,34.10776616,-118.4155227,117.8555556,240.2,34.10776616,392.1633217
+7726,186th St,34.09625097,-118.6083941,118.3888889,241.5,34.09625097,393.9851399
+7925,187th St,34.09359514,-118.5874579,118.9222222,242.8,34.09359514,395.8158174
+7727,188th St,34.09972497,-118.5869071,119.4555556,244.1,34.09972497,397.6552805
+7728,189th St,34.08370135,-118.6360283,119.9888889,245.4,34.08370135,399.4725902
+7731,190th St,34.12530143,-118.7499441,120.5222222,246.7,34.12530143,401.3475237
+7732,191st St,34.05622044,-118.7984174,121.0555556,248,34.05622044,403.111776
+7733,192nd St,34.09985715,-118.7025729,121.5888889,249.3,34.09985715,404.988746
+7735,193rd St,34.10894653,-118.7141737,122.1222222,250.6,34.10894653,406.8311688
+7736,194th St,34.12655341,-118.7068053,122.6555556,251.9,34.12655341,408.682109
+7737,195th St,34.10418717,-118.7111697,123.1888889,253.2,34.10418717,410.4930761
+7739,196th St,34.04443029,-118.9345939,123.7222222,254.5,34.04443029,412.2666525
+7740,197th St,34.04427179,-118.9381086,124.2555556,255.8,34.04427179,414.0998273
+7741,198th St,34.04430796,-118.9375282,124.7888889,257.1,34.04430796,415.9331968
+7742,199th St,34.04683663,-118.9330654,125.3222222,258.4,34.04683663,417.7690589
+7744,200th St,34.10894653,-118.7141737,125.8555556,259.7,34.10894653,419.6645021
+7745,201st St,34.12771455,-118.7239842,126.3888889,261,34.12771455,421.5166034
+7746,202nd St,34.04448333,-118.9368047,126.9222222,262.3,34.04448333,423.2667056
+7747,203rd St,34.04459742,-118.9359501,127.4555556,263.6,34.04459742,425.100153
+7748,204th St,34.09298097,-118.5888921,127.9888889,264.9,34.09298097,426.9818699
+7749,205th St,34.1002732,-118.7580079,128.5222222,266.2,34.1002732,428.8224954
+7754,206th St,34.04712732,-118.5598195,129.0555556,267.5,34.04712732,430.6026829
+7756,207th St,34.14962722,-118.7351877,129.5888889,268.8,34.14962722,432.5385161
+7757,208th St,34.09452162,-118.6008872,130.1222222,270.1,34.09452162,434.3167438
+7759,209th St,34.09074623,-118.6557706,130.6555556,271.4,34.09074623,436.1463018
+7761,210th St,34.1110731,-118.77717,131.1888889,272.7,34.1110731,437.999962
+7762,211th St,34.11208046,-118.7504277,131.7222222,274,34.11208046,439.8343027
+7764,212th St,34.0837575,-118.9182729,132.2555556,275.3,34.0837575,441.6393131
+7766,213th St,34.11706246,-118.7563109,132.7888889,276.6,34.11706246,443.5059513
+7767,214th St,34.10134052,-118.6576138,133.3222222,277.9,34.10134052,445.3235627
+7768,215th St,34.11303909,-118.7524793,133.8555556,279.2,34.11303909,447.1685946
+7926,216th St,34.09358071,-118.5882223,134.3888889,280.5,34.09358071,448.9824696
+7927,217th St,34.05200023,-118.7585139,134.9222222,281.8,34.05200023,450.7742225
+7928,218th St,34.14061477,-118.5418487,135.4555556,283.1,34.14061477,452.6961703
+7929,219th St,34.03171131,-118.8122502,135.9888889,284.4,34.03171131,454.4206002
+7931,220th St,34.10528844,-118.7317099,136.5222222,285.7,34.10528844,456.3275107
+7932,221st St,34.09972497,-118.5869071,137.0555556,287,34.09972497,458.1552805
+7939,222nd St,34.12904371,-118.5135228,137.5888889,288.3,34.12904371,460.0179326
+7940,223rd St,34.12904371,-118.5135228,138.1222222,289.6,34.12904371,461.8512659
+7941,224th St,,,138.6555556,290.9,,429.5555556
+ Ann Skager Spur Trail,225th St,-118.7170585,224,139.1888889,292.2,,431.3888889
+7942,226th St,34.0543065,-118.5131731,139.7222222,293.5,34.0543065,467.2765287
+7943,227th St,34.05852272,-118.5148843,140.2555556,294.8,34.05852272,469.1140783
+7944,228th St,34.08180404,-118.7033773,140.7888889,296.1,34.08180404,470.9706929
+7945,229th St,34.05624678,-118.5144358,141.3222222,297.4,34.05624678,472.778469
+7946,230th St,34.06065636,-118.5137125,141.8555556,298.7,34.06065636,474.6162119
+7947,231st St,34.12863336,-118.553766,142.3888889,300,34.12863336,476.5175222
+7948,232nd St,34.12863336,-118.553766,142.9222222,301.3,34.12863336,478.3508556
+7949,233rd St,34.04629397,-118.9351911,143.4555556,302.6,34.04629397,480.1018495
+7950,234th St,34.04620493,-118.9337354,143.9888889,303.9,34.04620493,481.9350938
+7951,235th St,34.05196861,-118.9280961,144.5222222,305.2,34.05196861,483.7741908
+7952,236th St,34.07061305,-118.9064872,145.0555556,306.5,34.07061305,485.6261686
+7953,237th St,34.06557529,-118.9079796,145.5888889,307.8,34.06557529,487.4544642
+7954,238th St,34.07061305,-118.9064872,146.1222222,309.1,34.07061305,489.2928353
+7955,239th St,34.07061305,-118.9064872,146.6555556,310.4,34.07061305,491.1261686
+7956,240th St,34.06626459,-118.9083813,147.1888889,311.7,34.06626459,492.9551535
+7957,241st St,34.07061305,-118.9064872,147.7222222,313,34.07061305,494.7928353
+7958,242nd St,34.07192658,-118.9071665,148.2555556,314.3,34.07192658,496.6274821
+7959,243rd St,34.07061305,-118.9064872,148.7888889,315.6,34.07061305,498.4595019
+7960,244th St,34.07061305,-118.9064872,149.3222222,316.9,34.07061305,500.2928353
+7963,245th St,34.07061305,-118.9064872,149.8555556,318.2,34.07061305,502.1261686
+7964,246th St,34.09166241,-118.8671393,150.3888889,319.5,34.09166241,503.9805513
+7965,247th St,34.09166241,-118.8671393,150.9222222,320.8,34.09166241,505.8138846
+7966,248th St,34.09166241,-118.8671393,151.4555556,322.1,34.09166241,507.647218
+7967,249th St,34.08577506,-118.8625102,151.9888889,323.4,34.08577506,509.4746639
+7968,250th St,34.08519896,-118.8615978,152.5222222,324.7,34.08519896,511.3074212
+7969,251st St,34.08683648,-118.8392392,153.0555556,326,34.08683648,513.142392
+7970,252nd St,34.09706364,-118.8140973,153.5888889,327.3,34.09706364,514.9859525
+7971,253rd St,34.09706364,-118.8140973,154.1222222,328.6,34.09706364,516.8192859
+7972,254th St,34.09706364,-118.8140973,154.6555556,329.9,34.09706364,518.6526192
+7973,255th St,34.09706364,-118.8140973,155.1888889,331.2,34.09706364,520.4859525
+7974,256th St,34.06138582,-118.8040624,155.7222222,332.5,34.06138582,522.283608
+7975,257th St,34.03171131,-118.8122502,156.2555556,333.8,34.03171131,524.0872669
+7976,258th St,34.03171131,-118.8122502,156.7888889,335.1,34.03171131,525.9206002
+7978,259th St,34.08200797,-118.7584061,157.3222222,336.4,34.08200797,527.8042302
+7979,260th St,34.08127044,-118.6450823,157.8555556,337.7,34.08127044,529.636826
+7980,261st St,34.11235484,-118.779076,158.3888889,339,34.11235484,531.5012437
+7981,262nd St,34.12530143,-118.7499441,158.9222222,340.3,34.12530143,533.3475237
+7982,263rd St,34.12352858,-118.7502566,159.4555556,341.6,34.12352858,535.1790841
+7983,264th St,34.12352858,-118.7502566,159.9888889,342.9,34.12352858,537.0124175
+7984,265th St,34.11550054,-118.7552522,160.5222222,344.2,34.11550054,538.8377228
+7985,266th St,34.11550054,-118.7552522,161.0555556,345.5,34.11550054,540.6710561
+7986,267th St,34.11579905,-118.7571684,161.5888889,346.8,34.11579905,542.5046879
+7987,268th St,34.11579905,-118.7571684,162.1222222,348.1,34.11579905,544.3380213
+7988,269th St,34.11579905,-118.7571684,162.6555556,349.4,34.11579905,546.1713546
+7989,270th St,34.12530143,-118.7499441,163.1888889,350.7,34.12530143,548.0141903
+7990,271st St,34.15655231,-118.7308384,163.7222222,352,34.15655231,549.8787745
+7991,272nd St,34.15655231,-118.7308384,164.2555556,353.3,34.15655231,551.7121079
+7992,273rd St,34.15655231,-118.7308384,164.7888889,354.6,34.15655231,553.5454412
+7993,274th St,34.15655231,-118.7308384,165.3222222,355.9,34.15655231,555.3787745
+7994,275th St,34.11208046,-118.7504277,165.8555556,357.2,34.11208046,557.167636
+7995,276th St,34.11208046,-118.7504277,166.3888889,358.5,34.11208046,559.0009693
+7996,277th St,34.11208046,-118.7504277,166.9222222,359.8,34.11208046,560.8343027
+7997,278th St,34.11208046,-118.7504277,167.4555556,361.1,34.11208046,562.667636
+7998,279th St,34.0967567,-118.7162381,167.9888889,362.4,34.0967567,564.4856456
+7999,280th St,34.0967567,-118.7162381,168.5222222,363.7,34.0967567,566.3189789
+8000,281st St,34.0967567,-118.7162381,169.0555556,365,34.0967567,568.1523123
+8001,282nd St,34.0967567,-118.7162381,169.5888889,366.3,34.0967567,569.9856456
+8002,283rd St,34.0967567,-118.7162381,170.1222222,367.6,34.0967567,571.8189789
+8003,284th St,34.0967567,-118.7162381,170.6555556,368.9,34.0967567,573.6523123
+8004,285th St,34.0967567,-118.7162381,171.1888889,370.2,34.0967567,575.4856456
+8005,286th St,34.0967567,-118.7162381,171.7222222,371.5,34.0967567,577.3189789
+8006,287th St,34.0967567,-118.7162381,172.2555556,372.8,34.0967567,579.1523123
+8007,288th St,34.0967567,-118.7162381,172.7888889,374.1,34.0967567,580.9856456
+8008,289th St,34.0967567,-118.7162381,173.3222222,375.4,34.0967567,582.8189789
+8009,290th St,34.0967567,-118.7162381,173.8555556,376.7,34.0967567,584.6523123
+8010,291st St,34.0967567,-118.7162381,174.3888889,378,34.0967567,586.4856456
+8011,292nd St,34.05968704,-118.6165453,174.9222222,379.3,34.05968704,588.2819093
+8012,293rd St,34.05968704,-118.6165453,175.4555556,380.6,34.05968704,590.1152426
+8013,294th St,34.05968704,-118.6165453,175.9888889,381.9,34.05968704,591.9485759
+8016,295th St,34.09340166,-118.587802,176.5222222,383.2,34.09340166,593.8156239
+8017,296th St,34.09340166,-118.587802,177.0555556,384.5,34.09340166,595.6489572
+8018,297th St,34.12736966,-118.5988436,177.5888889,385.8,34.12736966,597.5162585
+8019,298th St,34.13130356,-118.5531686,178.1222222,387.1,34.13130356,599.3535258
+8020,299th St,34.13130356,-118.5531686,178.6555556,388.4,34.13130356,601.1868591
+8021,300th St,34.12756597,-118.5420461,179.1888889,389.7,34.12756597,603.0164549
+8023,301st St,34.09340166,-118.587802,179.7222222,391,34.09340166,604.8156239
+8024,302nd St,34.09340166,-118.587802,180.2555556,392.3,34.09340166,606.6489572
+8025,303rd St,34.12756597,-118.5420461,180.7888889,393.6,34.12756597,608.5164549
+8027,304th St,34.05453293,-118.5117895,181.3222222,394.9,34.05453293,610.2767552
+8028,305th St,34.05453293,-118.5117895,181.8555556,396.2,34.05453293,612.1100885
+8029,306th St,34.05453293,-118.5117895,182.3888889,397.5,34.05453293,613.9434218
+8030,307th St,34.05453293,-118.5117895,182.9222222,398.8,34.05453293,615.7767552
+8031,308th St,34.05453293,-118.5117895,183.4555556,400.1,34.05453293,617.6100885
+8032,309th St,34.05453293,-118.5117895,183.9888889,401.4,34.05453293,619.4434218
+8033,310th St,34.05453293,-118.5117895,184.5222222,402.7,34.05453293,621.2767552
+8034,311th St,34.05453293,-118.5117895,185.0555556,404,34.05453293,623.1100885
+8035,312th St,34.05453293,-118.5117895,185.5888889,405.3,34.05453293,624.9434218
+8036,313th St,34.05453293,-118.5117895,186.1222222,406.6,34.05453293,626.7767552
+8038,314th St,34.0544161,-118.5096265,186.6555556,407.9,34.0544161,628.6099717
+8039,315th St,34.0544161,-118.5096265,187.1888889,409.2,34.0544161,630.443305
+8040,316th St,34.0544161,-118.5096265,187.7222222,410.5,34.0544161,632.2766383
+8041,317th St,34.0544161,-118.5096265,188.2555556,411.8,197,797.0555556
+8042,318th St,34.0544161,-118.5096265,188.7888889,413.1,198,799.8888889
+8043,319th St,34.08316434,-118.7055011,189.3222222,414.4,199,802.7222222
+8044,320th St,34.07825482,-118.7104161,189.8555556,415.7,194.4,799.9555556
+8046,321st St,34.11072135,-118.5887587,20,417,200,637

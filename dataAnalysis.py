@@ -50,9 +50,10 @@ def create_feature(_map, location):
         _map.draw(point)
 
     except Exception as e:
-        print("Couldn't create the feature. {}".format(str(e))))
-#deleteAllRemote()
-#data_reference = exportDataset("sampletitle", "bello", "CSV", data_file_location)
+        print("Couldn't create the feature. {}".format(str(e)))
+deleteAllRemote()
+data_reference = exportDataset("sampletitle", "bello", "CSV", data_file_location)
+"""
 query = 'title: "SampleCSVFile_2kb*"'
 data_reference = gis.content.search(query=query)[0]
 data_url = data_reference.url
@@ -60,10 +61,11 @@ feature_layers = data_reference.layers
 trailheads_layer = feature_layers[0]
 for field in trailheads_layer.properties['fields']:
     print('Name: {:16s}\tType: {}'.format(field['name'], field['actualType']))
+"""
 m = gis.map()
 m.center = [34.09042, -118.71511]           # `[latitude, longitude]`
 m.zoom = 11
-create_feature(m, [34.0941, -118.716])
+#create_feature(m, [34.0941, -118.716])
 
 
 #cross_correlate(arr1, arr2)
