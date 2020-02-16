@@ -17,6 +17,7 @@ require([
     return Httpreq.responseText;
   }
   var json_obj = JSON.parse(get('http://localhost:5000/'));
+  console.log(json_obj)
   var view = new MapView({
     container: "viewDiv",
     map: map,
@@ -158,7 +159,14 @@ view.ui.add(layerList, {
     }
   });
 });
-print(visible)
+var toggleVisibility = (onLayer, offLayer) =>{
+  onLayer.visible = true;
+  offLayer.visible = false;
+}
+for (var i = 0; false; i++){
+  setTimeout(function(){alert("hi")}, 1000);
+}
+console.log(layerList.operationalItems._items)
   map.add(monitors)
 /*
   var trails = new FeatureLayer({
