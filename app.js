@@ -158,6 +158,7 @@ view.ui.add(layerList, {
     }
   });
 });
+print(visible)
   map.add(monitors)
 /*
   var trails = new FeatureLayer({
