@@ -74,7 +74,7 @@ def create_time_lapse(title, tags, type, file_path):
     #deleteAllRemote()
     listOItems = []
     data = CSVparse(file_path)
-    time_scale_count = 2#len(data[1][data[0].index("NOX_LEVELS")].split("$"))
+    time_scale_count = len(data[1][data[0].index("NOX_LEVELS")].split("$"))
     #units of time recorded, according to how many NOX level measurements there were
     deleteAllRemote()
     for time in range(time_scale_count):
