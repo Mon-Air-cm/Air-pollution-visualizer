@@ -49,48 +49,122 @@ view.ui.add(layerList, {
         "content": "<b>Monitor #</b>{MONITOR_ID}<b> Long/lat:</b> {LON}, {LAT}<br><b>NOx concentration:</b> {NOX_LEVELS}<br><b>SOx concentration:</b> {SOX_LEVELS}<br><b>Ozone concentration:</b> {OZONE_LEVELS}<br>"
       }//for some reason the trail name isn't quite working even though everything else does
   console.log("popupMonitors made")
-  var monitorRenderer = { //individual node
-        type: "simple",
-        symbol: {
-          type: "simple-marker",
-        },
-        visualVariables: [
-          {
-            type: "color",
-            field: "NOX_LEVELS",
-            stops: [
-            {
-              value: 3000,
-              color: "#F7F7F7",
-              label: "100ppm or lower",
-            },
-            {
-              value: 5000,
-              color: "#b35806",
-              label: "300ppm or higher",
-            },
-          ]
-        },{
-        type: "size",
-          field: "NOX_LEVELS",
-          stops: [
-            { value: 3000, size: 4, label: "<15%" },
-            { value: 4000, size: 8, label: "<15%" },
-            { value: 5000, size: 12, label: "25%" },
-            { value: 6000, size: 16, label: "<15%" },
-            { value: 7000, size: 20, label: "<15%" },
-            { value: 8000, size: 24, label: ">35%" }
-          ]},{
-             type: "opacity",
-               field: "NOX_LEVELS",
-               stops: [
-                 { value: 3000, opacity: 0.1, label: "<15%" },
-                 { value: 5000, opacity: 0.5, label: "25%" },
-                 { value: 7000, opacity: 0.9, label: ">35%" }
-               ]}
-          ],
+  var no2Renderer = { //individual node
+               type: "simple",
+               symbol: {
+                 type: "simple-marker",
+               },
+               visualVariables: [
+                 {
+                   type: "color",
+                   field: "NOX_LEVELS",
+                   stops: [
+                   {
+                     value: 3000,
+                     color: "#e6b451",
+                     label: "100ppm or lower",
+                   },
+                   {
+                     value: 7000,
+                     color: "#b35806",
+                     label: "300ppm or higher",
+                   },
+                   {
+                     value: 15000,
+                     color: "#462525",
+                     label: "300ppm or higher",
+                   },
+                 ]
+               },{
+               type: "size",
+                 field: "NOX_LEVELS",
+                 stops: [
+                   { value: 3000, size: 1, label: "<15%" },
+                   { value: 16000, size: 28, label: ">35%" }
+                 ]},{
+                    type: "opacity",
+                      field: "NOX_LEVELS",
+                      stops: [
+                          { value: 3000, opacity: 0.3, label: "<15%" },
+                          { value: 20000, opacity: 0.5, label: ">35%" }
+                      ]}
+                 ],
 
-      }
+             }
+   var so2Renderer = { //individual node
+                 type: "simple",
+                 symbol: {
+                   type: "simple-marker",
+                 },
+                 visualVariables: [
+                   {
+                     type: "color",
+                     field: "SOX_LEVELS",
+                     stops: [
+                     {
+                       value: 3000,
+                       color: "#f8ff38",
+                       label: "100ppm or lower",
+                     },
+                     {
+                       value: 15000,
+                       color: "#000000",
+                       label: "300ppm or higher",
+                     },
+                   ]
+                 },{
+                 type: "size",
+                   field: "SOX_LEVELS",
+                   stops: [
+                     { value: 3000, size: 1, label: "<15%" },
+                     { value: 16000, size: 28, label: ">35%" }
+                   ]},{
+                      type: "opacity",
+                        field: "SOX_LEVELS",
+                        stops: [
+                          { value: 3000, opacity: 0.3, label: "<15%" },
+                          { value: 20000, opacity: 0.5, label: ">35%" }
+                        ]}
+                   ],
+
+               }
+   var ozRenderer = { //individual node
+                 type: "simple",
+                 symbol: {
+                   type: "simple-marker",
+                 },
+                 visualVariables: [
+                   {
+                     type: "color",
+                     field: "OZONE_LEVELS",
+                     stops: [
+                     {
+                       value: 3000,
+                       color: "#51b9e6",
+                       label: "100ppm or lower",
+                     },
+                     {
+                       value: 15000,
+                       color: "#100d5e",
+                       label: "300ppm or higher",
+                     },
+                   ]
+                 },{
+                 type: "size",
+                   field: "OZONE_LEVELS",
+                   stops: [
+                     { value: 3000, size: 1, label: "<15%" },
+                     { value: 16000, size: 28, label: ">35%" }
+                   ]},{
+                      type: "opacity",
+                        field: "OZONE_LEVELS",
+                        stops: [
+                          { value: 3000, opacity: 0.3, label: "<15%" },
+                          { value: 20000, opacity: 0.5, label: ">35%" }
+                        ]}
+                   ],
+
+               }
   console.log("monitorRenderer made")
   var monitorsLabel = {
     symbol: { //text labels
@@ -151,14 +225,30 @@ view.ui.add(layerList, {
   for (var i = 0; i < json_obj["listOItems"].length; i++){
       url = json_obj["listOItems"][i].url
       console.log(url)
-      var monitors = new FeatureLayer({
+      var monitorsNO2 = new FeatureLayer({
         url:url,
         outfields: ["LOCATION", "LON", "LAT"],
         popupTemplate: popupMonitors,
-        renderer: monitorRenderer,
+        renderer: no2Renderer,
         labelingInfo: [monitorsLabel]
       })
-      map.add(monitors)
+        var monitorsSO2 = new FeatureLayer({
+              url:url,
+              outfields: ["LOCATION", "LON", "LAT"],
+              popupTemplate: popupMonitors,
+              renderer: so2Renderer,
+              labelingInfo: [monitorsLabel]
+            })
+        var monitorsOZ = new FeatureLayer({
+                url:url,
+                outfields: ["LOCATION", "LON", "LAT"],
+                popupTemplate: popupMonitors,
+                renderer: ozRenderer,
+                labelingInfo: [monitorsLabel]
+        })
+      map.add(monitorsNO2)
+      map.add(monitorsSO2)
+      map.add(monitorsOZ)
   }
   console.log("trailheadsLabel made")
   var monitors = new FeatureLayer({
