@@ -14,8 +14,8 @@ from arcgis import features
 from scipy.signal import correlate
 
 gis = GIS("https://www.arcgis.com", username="sumguy002", password="2q4SNceu.*JQ5Fn")
-data_file_location = "C:/Users/bryan/Downloads/LA_Hub_Datasets/LA_Hub_Datasets/Parks_and_Open_Space.zip"
-data_file_location = "./monitordata/SampleCSVFile_2kb.csv"
+data_file_location = "./sample_data.csv"
+#data_file_location = "./monitordata/SampleCSVFile_2kb.csv"
 def exportDataset(title, tags, type, file_location):
     properties = {
         "title": title,
@@ -74,7 +74,7 @@ def create_time_lapse(title, tags, type, file_path):
     #deleteAllRemote()
     listOItems = []
     data = CSVparse(file_path)
-    time_scale_count = len(data[1][data[0].index("NOX_LEVELS")].split("$"))-3
+    time_scale_count = 2#len(data[1][data[0].index("NOX_LEVELS")].split("$"))
     #units of time recorded, according to how many NOX level measurements there were
     deleteAllRemote()
     for time in range(time_scale_count):
@@ -102,7 +102,7 @@ def create_time_lapse(title, tags, type, file_path):
 app = Flask(__name__)
 CORS(app, supports_credentials = True)
 
-listOItems = create_time_lapse("time", "tag", "CSV", "./monitordata/samplecsvfile_2kb.csv")
+listOItems = create_time_lapse("time", "tag", "CSV", data_file_location)
 @app.route('/')
 def get_urls():
     return jsonify({"listOItems": listOItems})

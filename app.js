@@ -20,7 +20,7 @@ require([
   var view = new MapView({
     container: "viewDiv",
     map: map,
-    center: [-118.80500, 34.02700], // longitude, latitude
+    center: [ -73.993, 40.73], // longitude, latitude
     zoom: 13
   });
   var layerList = new LayerList({
@@ -46,7 +46,7 @@ view.ui.add(layerList, {
   });
   var popupMonitors = {
         "title": "{LOCATION}",//"{LOCATION}",
-        "content": "<b>Monitor #</b>{MONITOR_ID}<b> Long/lat:</b> {LON}{LAT}<br><b>NOx concentration:</b> {NOX_LEVELS}<br><b>SOx concentration:</b> {SOX_LEVELS}<br><b>Ozone concentration:</b> {OZONE_LEVELS}<br>"
+        "content": "<b>Monitor #</b>{MONITOR_ID}<b> Long/lat:</b> {LON}, {LAT}<br><b>NOx concentration:</b> {NOX_LEVELS}<br><b>SOx concentration:</b> {SOX_LEVELS}<br><b>Ozone concentration:</b> {OZONE_LEVELS}<br>"
       }//for some reason the trail name isn't quite working even though everything else does
   console.log("popupMonitors made")
   var monitorRenderer = { //individual node
@@ -150,8 +150,15 @@ view.ui.add(layerList, {
     renderer: monitorRenderer,
     labelingInfo: [monitorsLabel]
   })
+  layerList.operationalItems.forEach(function(item){
+  item.watch("visible", function(visible){
+    console.log("visible")
+    if(visible){
+      fadeVisibilityOn(item.layer);
+    }
+  });
+});
   map.add(monitors)
-  console.log(layerList.operationalItems)
 /*
   var trails = new FeatureLayer({
     url: "https://services3.arcgis.com/GVgbJbqm8hXASVYi/arcgis/rest/services/Trails/FeatureServer/0",
