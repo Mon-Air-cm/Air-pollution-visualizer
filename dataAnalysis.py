@@ -15,7 +15,8 @@ from scipy.signal import correlate
 
 gis = GIS("https://www.arcgis.com", username="sumguy002", password="2q4SNceu.*JQ5Fn")
 data_file_location = "C:/Users/bryan/Downloads/LA_Hub_Datasets/LA_Hub_Datasets/Parks_and_Open_Space.zip"
-data_file_location = "./monitordata/SampleCSVFile_2kb.csv"
+#data_file_location = "./monitordata/SampleCSVFile_2kb.csv"
+data_file_location = "./sample_data.csv"
 def exportDataset(title, tags, type, file_location):
     properties = {
         "title": title,
