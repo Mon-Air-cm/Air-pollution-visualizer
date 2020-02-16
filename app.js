@@ -38,31 +38,32 @@ require([
   var monitorRenderer = { //individual node
         type: "simple",
         symbol: {
-          type: "picture-marker",
-          url: "https://services9.arcgis.com/Rm2nGB5BTMeUprVI/arcgis/rest/services/SampleCSVFile_2kb/FeatureServer",//a url linking to the arcGIS hosting the data and the information
+          type: "simple-marker",
         },
+
         visualVariables: [
           {
-            type: "size",
+            type: "color",
             field: "TOTAL_PPM",
             stops: [
             {
               value: 100,
-              color: "F7F7F7",
-              label: "100ppm or lower"
+              color: "#F7F7F7",
+              label: "100ppm or lower",
             },
             {
-              value: 300, // features where > 30% of the pop in poverty
-              color: "b35806", // will be assigned this color (purple)
-              label: "300ppm or higher" // label to display in the legend
+              value: 400,
+              color: "#b35806",
+              label: "300ppm or higher",
             },
           ]
         }],
+
       }
   console.log("monitorRenderer made")
-  var trailheadsLabel = {
-    symbol: {
-      test: "text",
+  var monitorsLabel = {
+    symbol: { //text labels
+      type: "text",
       color: "#FFFFFF",
       haloColor: "5E8D74",
       haloSize: "2px",
@@ -84,27 +85,10 @@ require([
     outfields: ["TRL_NAME","LOCATION", "LON", "LAT", "BOX_LEVELS"],
     popupTemplate: popupMonitors,
     renderer: monitorRenderer,
-    labelingInfo: [trailheadsLabel]
+    labelingInfo: [monitorsLabel]
   })
   map.add(monitors)
-  var monitorRenderer = {
-    type: "simple",
-    symbol: {
-          color: "#BA55D3",
-          type: "simple-line",
-          style: "solid"
-        },
-    visualVariables: [
-          {
-            type: "size",
-            field: "ELEV_GAIN",
-            minDataValue: 0,
-            maxDataValue: 2300,
-            minSize: "3px",
-            maxSize: "7px"
-          }
-        ],
-  }
+/*
   var trails = new FeatureLayer({
     url: "https://services3.arcgis.com/GVgbJbqm8hXASVYi/arcgis/rest/services/Trails/FeatureServer/0",
     renderer: monitorRenderer,
@@ -128,5 +112,6 @@ require([
       });
 
       map.add(bikeTrails, 1);
+  */
   view.ui.add(basemapGallery, "bottom-right");
 });
