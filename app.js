@@ -60,17 +60,35 @@ view.ui.add(layerList, {
             field: "NOX_LEVELS",
             stops: [
             {
-              value: 4,
+              value: 3000,
               color: "#F7F7F7",
               label: "100ppm or lower",
             },
             {
-              value: 4.05,
+              value: 5000,
               color: "#b35806",
               label: "300ppm or higher",
             },
           ]
-        }],
+        },{
+        type: "size",
+          field: "NOX_LEVELS",
+          stops: [
+            { value: 3000, size: 4, label: "<15%" },
+            { value: 4000, size: 8, label: "<15%" },
+            { value: 5000, size: 12, label: "25%" },
+            { value: 6000, size: 16, label: "<15%" },
+            { value: 7000, size: 20, label: "<15%" },
+            { value: 8000, size: 24, label: ">35%" }
+          ]},{
+             type: "opacity",
+               field: "NOX_LEVELS",
+               stops: [
+                 { value: 3000, opacity: 0.1, label: "<15%" },
+                 { value: 5000, opacity: 0.5, label: "25%" },
+                 { value: 7000, opacity: 0.9, label: ">35%" }
+               ]}
+          ],
 
       }
   console.log("monitorRenderer made")
