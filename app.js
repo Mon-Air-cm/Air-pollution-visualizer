@@ -8,7 +8,14 @@ require([
   var map = new Map({
     basemap: "topo-vector"
   });
-
+  var get = (url)=>{
+    var Httpreq = new XMLHttpRequest(); // a new request
+    Httpreq.withCredentials = true;
+    Httpreq.open("GET",url,false);
+    Httpreq.send();
+    return Httpreq.responseText;
+  }
+  var json_obj = JSON.parse(get('http://localhost:5000/'));
   var view = new MapView({
     container: "viewDiv",
     map: map,
@@ -40,19 +47,18 @@ require([
         symbol: {
           type: "simple-marker",
         },
-
         visualVariables: [
           {
             type: "color",
-            field: "TOTAL_PPM",
+            field: "NOX_LEVELS",
             stops: [
             {
-              value: 100,
+              value: 4,
               color: "#F7F7F7",
               label: "100ppm or lower",
             },
             {
-              value: 400,
+              value: 4.05,
               color: "#b35806",
               label: "300ppm or higher",
             },
@@ -79,9 +85,19 @@ require([
       expression: "$feature.LOCATION"
     }
   };
+  for (var i = 0; i < 4; i++){
+      var monitors = new FeatureLayer({
+        url:"https://services9.arcgis.com/Rm2nGB5BTMeUprVI/arcgis/rest/services/time0/FeatureServer",
+        outfields: ["LOCATION", "LON", "LAT"],
+        popupTemplate: popupMonitors,
+        renderer: monitorRenderer,
+        labelingInfo: [monitorsLabel]
+      })
+      map.add(monitors)
+  }
   console.log("trailheadsLabel made")
   var monitors = new FeatureLayer({
-    url:"https://services9.arcgis.com/Rm2nGB5BTMeUprVI/arcgis/rest/services/SampleCSVFile_2kb/FeatureServer",
+    url:"https://services9.arcgis.com/Rm2nGB5BTMeUprVI/arcgis/rest/services/time0/FeatureServer",
     outfields: ["TRL_NAME","LOCATION", "LON", "LAT", "BOX_LEVELS"],
     popupTemplate: popupMonitors,
     renderer: monitorRenderer,
