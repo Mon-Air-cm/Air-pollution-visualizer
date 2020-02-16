@@ -3,8 +3,9 @@ require([
     "esri/views/MapView",
     "esri/widgets/BasemapToggle",
     "esri/widgets/BasemapGallery",
+    "esri/widgets/LayerList",
     "esri/layers/FeatureLayer"
-  ], function(Map, MapView, BasemapToggle, BasemapGallery, FeatureLayer) {
+  ], function(Map, MapView, BasemapToggle, BasemapGallery, LayerList, FeatureLayer) {
   var map = new Map({
     basemap: "topo-vector"
   });
@@ -22,6 +23,12 @@ require([
     center: [-118.80500, 34.02700], // longitude, latitude
     zoom: 13
   });
+  var layerList = new LayerList({
+  view: view
+});
+view.ui.add(layerList, {
+  position: "top-left"
+});
 
   /*var basemapToggle = BasemapToggle({
     view: view,
@@ -85,9 +92,49 @@ require([
       expression: "$feature.LOCATION"
     }
   };
-  for (var i = 0; i < 4; i++){
+
+  function fadeVisibilityOn(layer) {
+      let animating = true;
+      let opacity = 0.0001;
+      // fade layer's opacity from 0 to
+      // whichever value the user has configured
+      const finalOpacity = layer.opacity;
+      // Start the animation by setting the layer's opacity to 0.
+      layer.opacity = opacity;
+      view.whenLayerView(layer).then(function(layerView){
+        // Wait for tiles to finish loading before beginning the fade-in
+        // transition. The layer view's 'updating' property is true when
+        // data is being downloaded and tiles are drawing in the view
+        // Waiting for this property to be false makes the fade-in transition
+        // smoother (you don't see tiles) though it forces the user to wait
+        // a little longer for the transition to start
+        watchUtils.whenFalseOnce(layerView, "updating", function(updating){
+          requestAnimationFrame(incrementOpacityByFrame);
+    });
+
+    // This function will fire on every frame before the browser repaints.
+    function incrementOpacityByFrame() {
+      // Stop the animation if the opacity has reached the same value
+      // as the pre-defined finalOpacity
+      if((opacity >= finalOpacity) && animating){
+        animating = false;
+        return;
+      }
+
+      // Increment the opacity and set the new value on the layer
+      opacity += 0.05;
+      layer.opacity = opacity;
+
+      // Continue the animation at the next frame
+      requestAnimationFrame(incrementOpacityByFrame);
+    }
+  });
+}
+  for (var i = 0; i < json_obj["listOItems"].length; i++){
+      url = json_obj["listOItems"][i].url
+      console.log(url)
       var monitors = new FeatureLayer({
-        url:"https://services9.arcgis.com/Rm2nGB5BTMeUprVI/arcgis/rest/services/time0/FeatureServer",
+        url:url,
         outfields: ["LOCATION", "LON", "LAT"],
         popupTemplate: popupMonitors,
         renderer: monitorRenderer,
@@ -104,6 +151,7 @@ require([
     labelingInfo: [monitorsLabel]
   })
   map.add(monitors)
+  console.log(layerList.operationalItems)
 /*
   var trails = new FeatureLayer({
     url: "https://services3.arcgis.com/GVgbJbqm8hXASVYi/arcgis/rest/services/Trails/FeatureServer/0",
