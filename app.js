@@ -4,8 +4,8 @@ require([
     "esri/widgets/BasemapToggle",
     "esri/widgets/BasemapGallery",
     "esri/widgets/LayerList",
-    "esri/layers/FeatureLayer"
-  ], function(Map, MapView, BasemapToggle, BasemapGallery, LayerList, FeatureLayer) {
+    "esri/layers/FeatureLayer",
+  ], function(Map, MapView, BasemapToggle, BasemapGallery, LayerList, FeatureLayer, MergeLayers) {
   var map = new Map({
     basemap: "topo-vector"
   });
@@ -223,14 +223,12 @@ view.ui.add(layerList, {
       var monitorsNO2 = new FeatureLayer({
         url:url,
         outfields: ["LOCATION", "LON", "LAT"],
-        popupTemplate: popupMonitors,
         renderer: no2Renderer,
         labelingInfo: [monitorsLabel]
       })
         var monitorsSO2 = new FeatureLayer({
               url:url,
               outfields: ["LOCATION", "LON", "LAT"],
-              popupTemplate: popupMonitors,
               renderer: so2Renderer,
               labelingInfo: [monitorsLabel]
             })
@@ -240,10 +238,8 @@ view.ui.add(layerList, {
                 popupTemplate: popupMonitors,
                 renderer: ozRenderer,
                 labelingInfo: [monitorsLabel]
-        })
-      map.add(monitorsNO2)
-      map.add(monitorsSO2)
-      map.add(monitorsOZ)
+        });
+      map.addMany([monitorsNO2,monitorsSO2,monitorsOZ])
   }
   console.log("trailheadsLabel made")
   var monitors = new FeatureLayer({
