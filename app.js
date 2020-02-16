@@ -17,14 +17,13 @@ require([
     return Httpreq.responseText;
   }
   var json_obj = JSON.parse(get('http://localhost:5000/'));
-  console.log(json_obj)
   var view = new MapView({
     container: "viewDiv",
     map: map,
     center: [ -73.993, 40.73], // longitude, latitude
     zoom: 13
   });
-  /*
+/*
   var layerList = new LayerList({
   view: view
 });
@@ -162,7 +161,7 @@ view.ui.add(layerList, {
                           { value: 20000, opacity: 0.5, label: ">35%" }
                         ]}
                    ],
-
+/*sdfs*/
                }
   var sourceRenderer = { //individual node
                     type: "simple",
@@ -265,20 +264,17 @@ view.ui.add(layerList, {
         url:url,
         outfields: ["LOCATION", "LON", "LAT"],
         renderer: no2Renderer,
-        labelingInfo: [monitorsLabel]
       })
         var monitorsSO2 = new FeatureLayer({
               url:url,
               outfields: ["LOCATION", "LON", "LAT"],
               renderer: so2Renderer,
-              labelingInfo: [monitorsLabel]
             })
         var monitorsOZ = new FeatureLayer({
                 url:url,
                 outfields: ["LOCATION", "LON", "LAT"],
                 popupTemplate: popupMonitors,
                 renderer: ozRenderer,
-                labelingInfo: [monitorsLabel]
         });
       map.addMany([monitorsNO2,monitorsSO2,monitorsOZ])
   }
@@ -314,7 +310,7 @@ view.ui.add(layerList, {
     popupTemplate: popupMonitors,
     renderer: monitorRenderer,
     labelingInfo: [monitorsLabel]
-  })*/
+  })
   layerList.operationalItems.forEach(function(item){
   item.watch("visible", function(visible){
     console.log("visible")
@@ -322,29 +318,38 @@ view.ui.add(layerList, {
       fadeVisibilityOn(item.layer);
     }
   });
-});
+});*/
   var toggleVisibility = (onLayer, offLayer) =>{
     onLayer.visible = true;
     offLayer.visible = false;
-    console.log(onLayer)
-    console.log(offLayer)
   }
 
   //map.add(monitors)
   view.ui.add(basemapGallery, "bottom-right");
+  map.layers.items.map((obj) => {
+    obj.visible = false;
+  })
   i = 1
   window.setInterval(function(){
-    mapLayers = map.layers.items
-    var ind = i%(json_obj["listOItems"].length)
-    var indPlus = (ind + 1)%(json_obj["listOItems"].length)
-    toggleVisibility(mapLayers[ind], mapLayers[indPlus]);
-    console.log(new Date().getSeconds())
-    i++;
-    if (i>100){
+    var maxlen = json_obj["listOItems"].length;
+    var mapLayers = map.layers.items;
+    var delArr = [i, i+1, i+2,];
+    var addArr = [i+3, i+4, i+5,];
+    addArr = addArr.map((j)=>{
+      return j%maxlen
+    })
+    delArr = delArr.map((j)=>{
+      return j%maxlen
+    })
+    for (var k = 0; k < 3; k++){ //each k is the pollutant
+      toggleVisibility(mapLayers[addArr[k]], mapLayers[delArr[k]])
+    };
+    i+= 3;
+    if (i>300){
+      console.log(i)
       clearInterval();
     }
-  }, 100);
-
+  }, 1000);
 /*
   var trails = new FeatureLayer({
     url: "https://services3.arcgis.com/GVgbJbqm8hXASVYi/arcgis/rest/services/Trails/FeatureServer/0",
