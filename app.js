@@ -24,12 +24,13 @@ require([
     center: [ -73.993, 40.73], // longitude, latitude
     zoom: 13
   });
+  /*
   var layerList = new LayerList({
   view: view
 });
 view.ui.add(layerList, {
   position: "top-left"
-});
+});*/
 
   /*var basemapToggle = BasemapToggle({
     view: view,
@@ -87,6 +88,8 @@ view.ui.add(layerList, {
                  ],
 
              }
+
+
    var so2Renderer = { //individual node
                  type: "simple",
                  symbol: {
@@ -161,6 +164,43 @@ view.ui.add(layerList, {
                    ],
 
                }
+  var sourceRenderer = { //individual node
+                    type: "simple",
+                    symbol: {
+                      type: "simple-marker",
+                    },
+                    visualVariables: [
+                      {
+                        type: "color",
+                        field: "NOX_LEVELS",
+                        stops: [
+                        {
+                          value: 3000,
+                          color: "red",
+                          label: "100ppm or lower",
+                        },
+                        {
+                          value: 10000,
+                          color: "red",
+                          label: "300ppm or higher",
+                        },
+                      ]
+                    },{
+                    type: "size",
+                      field: "NOX_LEVELS",
+                      stops: [
+                        { value: 3000, size: 10, label: "<15%" },
+                        { value: 16000, size: 100, label: ">35%" }
+                      ]},{
+                         type: "opacity",
+                           field: "NOX_LEVELS",
+                           stops: [
+                               { value: 3000, opacity: 0.3, label: "<15%" },
+                               { value: 20000, opacity: 0.5, label: ">35%" }
+                           ]}
+                      ],
+
+                  }
   console.log("monitorRenderer made")
   var monitorsLabel = {
     symbol: { //text labels
@@ -243,6 +283,30 @@ view.ui.add(layerList, {
       map.addMany([monitorsNO2,monitorsSO2,monitorsOZ])
   }
   console.log("trailheadsLabel made")
+
+  sourceurl = ""
+  var monitorsSources = new FeatureLayer({
+                  url:url,
+                  outfields: ["LOCATION", "LON", "LAT"],
+                  popupTemplate: popupMonitors,
+                  renderer: sourceRenderer,
+                  labelingInfo: [monitorsLabel]
+          });
+  var layerList = new LayerList({
+   map: map,
+   showLegend: true,
+   showSubLayers: true,
+   showOpacitySlider: true,
+   layers: [monitorsSources]
+   },"layerlist");
+
+
+
+
+
+
+
+
 /*
   var monitors = new FeatureLayer({
     url:"https://services9.arcgis.com/Rm2nGB5BTMeUprVI/arcgis/rest/services/time0/FeatureServer",
@@ -266,8 +330,6 @@ view.ui.add(layerList, {
     console.log(offLayer)
   }
 
-
-
   //map.add(monitors)
   view.ui.add(basemapGallery, "bottom-right");
   i = 1
@@ -282,6 +344,7 @@ view.ui.add(layerList, {
       clearInterval();
     }
   }, 100);
+
 /*
   var trails = new FeatureLayer({
     url: "https://services3.arcgis.com/GVgbJbqm8hXASVYi/arcgis/rest/services/Trails/FeatureServer/0",
