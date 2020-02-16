@@ -85,9 +85,11 @@ require([
       expression: "$feature.LOCATION"
     }
   };
-  for (var i = 0; i < 4; i++){
+  for (var i = 0; i < json_obj["listOItems"].length; i++){
+      url = json_obj["listOItems"][i].url
+      console.log(url)
       var monitors = new FeatureLayer({
-        url:"https://services9.arcgis.com/Rm2nGB5BTMeUprVI/arcgis/rest/services/time0/FeatureServer",
+        url:url,
         outfields: ["LOCATION", "LON", "LAT"],
         popupTemplate: popupMonitors,
         renderer: monitorRenderer,
