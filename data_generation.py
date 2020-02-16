@@ -87,14 +87,24 @@ dM = [0.5] + [1] * 5 + [0.5]
 hM = list(np.linspace(0.5, 2.5, 8)) + list(np.linspace(2.5, 1.5, 4)) + list(np.linspace(1.5, 2.5, 4)) + list(
     np.linspace(2.5, 0.5, 8))
 
-with open('sample_data_sources.csv', 'w', newline='') as csvfile:
+# with open('sample_data_sources.csv', 'w', newline='') as csvfile:
+#     write = writer(csvfile, delimiter=",")
+#     for src in sources:
+#         build = src.__repr__()
+#         nxt = [str(src.val[i]) for i in range(3)]
+#         build += nxt
+#         write.writerow(build)
+
+
+with open('sample_data_traffic.csv', 'w', newline='') as csvfile:
     write = writer(csvfile, delimiter=",")
-    for src in sources:
-        build = src.__repr__()
-        nxt = [str(src.val[i]) for i in range(3)]
+    for s in sensors:
+        build = s.__repr__()
+        nxt = [str(s.traffic[i] * hM[0]) for i in range(3)]
+        for h in range(1, 24):
+            nxt = [nxt[i] + "$" + str(s.traffic[i] * hM[h]) for i in range(3)]
         build += nxt
         write.writerow(build)
-
 # with open('sample_data.csv', 'w', newline='') as csvfile:
 #     write = writer(csvfile, delimiter=",")
 #     for s in sensors:
