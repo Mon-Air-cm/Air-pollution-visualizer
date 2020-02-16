@@ -11,20 +11,25 @@ Top Right Corner (40.777, -73.946)
 Top Right of Lower Manhattan(40.75,-73.971)
 """
 decay = 10 ** -100
-
-
 class Node:
     ID = 100
-    names = ["Stanley", "Birmingham", "Manning", "Canal", "Madison"]
-    suffix = ["Circle", "Boulevard", "Street", "Drive", "Way"]
+    names = ["Stanley", "Birmingham", "Manning", "Canal", "Madison", "Bowery", "America", "Houston", "Lexington",
+             "Maiden", "Christopher", "Steinway","Utopia","Love","Brooklyn","Victory"]
+    suffix = ["Circle", "Boulevard", "Street", "Drive", "Way", "Avenue", "Lane", "Parkway", "Heights"]
+    location = set()
+    while len(location)< 116:
+        location.add(random.choice(names) + " " + random.choice(suffix))
+    loc_gen = location.__iter__()
 
-    def __init__(self, cords, val=[0, 0, 0], traffic=0):
+    def __init__(self, cords, val=[0, 0, 0], traffic=[0, 0, 0]):
         self.id = Node.ID
         Node.ID += 1
         self.pos = cords
         self.val = val
         self.traffic = traffic
-        self.street = random.choice(Node.names) + " " + random.choice(Node.suffix)
+        #print(Node.loc_gen)
+        self.street = Node.loc_gen.__next__()
+
 
     def dist_to(self, other):
         assert len(other.pos) == len(self.pos), "Unmatched Dimensions"
@@ -37,7 +42,8 @@ class Node:
         self.val = [v + v2 * (decay ** self.dist_to(other)) for v, v2 in zip(self.val, other.val)]
 
     def __repr__(self):
-        return [self.id,self.street]+self.pos
+        return [self.id, self.street] + self.pos
+
 
 lat_bot, lat_top = 40.706, 40.75
 lon_bot, lon_top = -74.011, -73.971
@@ -51,7 +57,7 @@ for i in range(n_sources):
 sensors = []
 for lat in np.linspace(40.706, 40.75, 10):
     for lon in np.linspace(-74.011, -73.971, 10):
-        sensors.append(Node([lat, lon], traffic=random.randint(500, 10000)));
+        sensors.append(Node([lat, lon], traffic=[random.randint(500, 10000) for i in range(3)]));
 for src in sources:
     for sens in sensors:
         sens.pol_received(src)
@@ -81,12 +87,12 @@ dM = [0.5] + [1] * 5 + [0.5]
 hM = list(np.linspace(0.5, 2.5, 8)) + list(np.linspace(2.5, 1.5, 4)) + list(np.linspace(1.5, 2.5, 4)) + list(
     np.linspace(2.5, 0.5, 8))
 
-with open('sample_data.csv') as csvfile:
-    write = writer(csvfile, delimiter = ",")
+with open('sample_data.csv', 'w', newline='') as csvfile:
+    write = writer(csvfile, delimiter=",")
     for s in sensors:
-        s = p.__repr__()
-        for h in range(24):
-            s +=
-
-
-
+        build = s.__repr__()
+        nxt = [str(s.val[i] + s.traffic[i] * hM[0]) for i in range(3)]
+        for h in range(1, 24):
+            nxt = [nxt[i] + "$" + str(s.val[i] + s.traffic[i] * hM[h]) for i in range(3)]
+        build += nxt
+        write.writerow(build)
