@@ -66,11 +66,6 @@ view.ui.add(layerList, {
                      label: "100ppm or lower",
                    },
                    {
-                     value: 7000,
-                     color: "#b35806",
-                     label: "300ppm or higher",
-                   },
-                   {
                      value: 15000,
                      color: "#462525",
                      label: "300ppm or higher",
@@ -109,7 +104,7 @@ view.ui.add(layerList, {
                      },
                      {
                        value: 15000,
-                       color: "#000000",
+                       color: "#a5a800",
                        label: "300ppm or higher",
                      },
                    ]
