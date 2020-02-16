@@ -252,13 +252,14 @@ view.ui.add(layerList, {
       map.add(monitorsOZ)
   }
   console.log("trailheadsLabel made")
+/*
   var monitors = new FeatureLayer({
     url:"https://services9.arcgis.com/Rm2nGB5BTMeUprVI/arcgis/rest/services/time0/FeatureServer",
     outfields: ["TRL_NAME","LOCATION", "LON", "LAT", "BOX_LEVELS"],
     popupTemplate: popupMonitors,
     renderer: monitorRenderer,
     labelingInfo: [monitorsLabel]
-  })
+  })*/
   layerList.operationalItems.forEach(function(item){
   item.watch("visible", function(visible){
     console.log("visible")
@@ -267,15 +268,29 @@ view.ui.add(layerList, {
     }
   });
 });
-var toggleVisibility = (onLayer, offLayer) =>{
-  onLayer.visible = true;
-  offLayer.visible = false;
-}
-for (var i = 0; false; i++){
-  setTimeout(function(){alert("hi")}, 1000);
-}
-console.log(layerList.operationalItems._items)
-  map.add(monitors)
+  var toggleVisibility = (onLayer, offLayer) =>{
+    onLayer.visible = true;
+    offLayer.visible = false;
+    console.log(onLayer)
+    console.log(offLayer)
+  }
+
+
+
+  //map.add(monitors)
+  view.ui.add(basemapGallery, "bottom-right");
+  i = 1
+  window.setInterval(function(){
+    mapLayers = map.layers.items
+    var ind = i%(json_obj["listOItems"].length)
+    var indPlus = (ind + 1)%(json_obj["listOItems"].length)
+    toggleVisibility(mapLayers[ind], mapLayers[indPlus]);
+    console.log(new Date().getSeconds())
+    i++;
+    if (i>100){
+      clearInterval();
+    }
+  }, 100);
 /*
   var trails = new FeatureLayer({
     url: "https://services3.arcgis.com/GVgbJbqm8hXASVYi/arcgis/rest/services/Trails/FeatureServer/0",
@@ -301,5 +316,4 @@ console.log(layerList.operationalItems._items)
 
       map.add(bikeTrails, 1);
   */
-  view.ui.add(basemapGallery, "bottom-right");
 });
